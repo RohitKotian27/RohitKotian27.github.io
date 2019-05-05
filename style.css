@@ -71,6 +71,11 @@ body{
 	margin-top:20px;
 }
 
+button a{
+	text-decoration:none;
+	color:#FFFFFF;
+}
+
 .product_list{
 	float:left;
 	width:32%;

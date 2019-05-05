@@ -7,7 +7,6 @@
 	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet"> 
 	<link rel="stylesheet" href="normalize.css">
 	<link rel="stylesheet" href="style.css">
-
 </head>
 <body>
 	<section class="hero_image">
@@ -16,13 +15,20 @@
 			<p>Here you can find a variety of food products that you can order at your door step.</p>
 			<span>PostCode</span>
 			<form class="form_code">
-				<input class="post_code" type="text" placeholder="Enter your postcode" name="">
-				<button type="submit">FIND FOOD </button>
+				<input list="postcode" class="post_code" type="text" placeholder="Enter your postcode" name="">
+				<datalist id="postcode">
+					<option value="421201">
+					<option value="421204">
+					<option value="99501">
+					<option value="99524">
+					<option value="85001">
+				</datalist>
+				<button type="submit"><a href="#Products" color="#FFFFFF">FIND FOOD</a></button>
 			</form>
 		 </div>
 	</section>
 
-	<section class="product">
+	<section id="Products" class="product">
 		<div class="product_list">
 			<img class="product_img" src="Images/food1.jpg" width="350px" height="350px"/>
 			<h2>Burgers</h2>
