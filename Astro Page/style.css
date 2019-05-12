@@ -1,0 +1,404 @@
+*{
+  margin:0;
+  padding:0;
+}
+.main_bg{
+  background: url(Images/Background.png);
+  max-width:100%;
+  background-color: rgba(0, 0, 0, 1);
+  background-size: cover;
+  position: relative;
+  z-index:-1;
+}
+.topleft-img{
+  position:absolute;
+  top:0px;
+  left:0px;
+}
+
+.astro_img{
+  position:absolute;
+  top:56px;
+  left:581px;
+}
+
+.astro-tab{
+  position:absolute;
+  top:83px;
+  left:670px;
+}
+
+.middle_img{
+  position:absolute;
+  top:182px;
+  left:334px;
+}
+
+.astro-forecast{
+  position:absolute;
+  top:251px;
+  left:425px;
+  z-index:1;
+}
+
+.astro-info{
+  position:absolute;
+  top:319px;
+  left:492px;
+  z-index:1;
+}
+
+.birth-date{
+  position:absolute;
+  top:433px;
+  left:532px;
+  z-index:1;
+}
+
+.dd-back{
+  position:absolute;
+  top:425px;
+  left:736px;
+  z-index:1;
+}
+
+.mm-back{
+  position:absolute;
+  top:425px;
+  left:781px;
+  z-index:1;
+}
+
+.yyyy-back{
+  position:absolute;
+  top:425px;
+  left:827px;
+  z-index:1;
+}
+
+.dd{
+  position:absolute;
+  top:438px;
+  left:746px;
+  z-index:2;
+}
+
+.mm{
+  position:absolute;
+  top:438px;
+  left:790px;
+  z-index:2;
+}
+
+.yyyy{
+  position:absolute;
+  top:438px;
+  left:841px;
+  z-index:2;
+}
+
+.keyboard{
+  position:absolute;
+  top:586px;
+  left:304px;
+  z-index:1;
+}
+
+.keyboard_left{
+  position:absolute;
+  top:605px;
+  left:349px;
+  z-index:1;
+}
+
+.keyboard_right{
+  position:absolute;
+  top:605px;
+  left:995px;
+  z-index:1;
+}
+.btn_click{
+  cursor:pointer;
+}
+
+.button{
+  position:absolute;
+  top:541px;
+  left:473px;
+  z-index:1;
+}
+
+.btn_text{
+  position:absolute;
+  top:577px;
+  left:528px;
+  z-index:2;
+}
+
+.btn_arrow{
+  position:absolute;
+  top:574px;
+  left:886px;
+  z-index:2;
+}
+
+.privacy_policy{
+  position:absolute;
+  top:693px;
+  left:372px;
+  z-index:1;
+}
+
+.arrow-down{
+  position:absolute;
+  top:806px;
+  left:699px;
+  z-index:1;
+}
+
+.zodiac-sign{
+  position:absolute;
+  top:519px;
+  left:1119px;
+  z-index:1;
+}
+
+/*plan-your-day-section*/
+
+.rect_wrapper{
+  position:absolute;
+  top:750px;
+  width:100%;
+}
+
+.Calendar{
+  position:absolute;
+  top:1014px;
+  left:335px;
+  z-index:2;
+}
+
+.plan-your-day{
+  position:absolute;
+  top:1017px;
+  left:406px;
+  z-index:2;
+}
+
+.plan-your-stars-info{
+  position:absolute;
+  top:1111px;
+  left:334px;
+  z-index:2
+}
+
+.fish{
+  position:absolute;
+  top:1096px;
+  left:785px;
+  z-index:2
+}
+
+/* Quick link to Astrology */
+
+.taurus{
+  position:absolute;
+  top:1637px;
+  left:398px;
+  z-index:2
+}
+
+.pointer{
+  position:absolute;
+  top:1548px;
+  left:730px;
+  z-index:2
+}
+
+.quick-links-to{
+  position:absolute;
+  top:1546px;
+  left:810px;
+  z-index:2
+}
+
+.tap-into-the{
+  position:absolute;
+  top:1641px;
+  left:731px;
+  z-index:2
+}
+
+/* Accurate-Readings_Predictions */
+
+.logo_69{
+  position:absolute;
+  top:2041px;
+  left:335px;
+  z-index:2
+}
+
+.accurate-readings{
+  position:absolute;
+  top:2039px;
+  left:403px;
+  z-index:2
+}
+
+.any-action{
+  position:absolute;
+  top:2135px;
+  left:334px;
+  z-index:2
+}
+
+.libra{
+  position:absolute;
+  top:2115px;
+  left:803px;
+  z-index:2
+}
+
+/* Button_2 */
+.cta_click{
+  cursor: pointer;
+}
+.button_2{
+  position:absolute;
+  top:2400px;
+  left:433px;
+  z-index:1
+}
+
+.btn_text_2{
+  position:absolute;
+  top:2464px;
+  left:508px;
+  z-index:2
+}
+
+.btn_arrow_2{
+  position:absolute;
+  top:2461px;
+  left:861px;
+  z-index:2
+}
+
+.purple_line{
+  position:absolute;
+  top:2510px;
+  width:100%;
+  z-index:2;
+}
+/* pink rectangle */
+.rect_pink{
+  position:absolute;
+  top:2490px;
+  width:100%;
+  height:1343px;
+}
+
+.install-my-astro-tab{
+  position:absolute;
+  top:2925px;
+  left:566px;
+  z-index:2;
+}
+
+.line{
+  position:absolute;
+  top:3022px;
+  left:662px;
+  z-index:2;
+}
+
+.scorpion{
+  position:absolute;
+  top:3090px;
+  left:456px;
+  z-index:1;
+}
+
+.number_1{
+ position:absolute;
+  top:3149px;
+  left:502px;
+  z-index:2;
+}
+
+.click-on-unlock{
+ position:absolute;
+  top:3232px;
+  left:399px;
+  z-index:2;
+}
+
+.right-arrow{
+  position:absolute;
+  top:3206px;
+  left:772px;
+  z-index:2;
+}
+
+.octupus{
+  position:absolute;
+  top:3270px;
+  left:835px;
+  z-index:1;
+}
+
+.number_2{
+ position:absolute;
+  top:3301px;
+  left:887px;
+  z-index:2;
+}
+
+.add-extension{
+ position:absolute;
+  top:3417px;
+  left:843px;
+  z-index:2;
+}
+
+.left-arrow{
+ position:absolute;
+  top:3512px;
+  left:739px;
+  z-index:2;
+}
+
+.monkey{
+  position:absolute;
+  top:3479px;
+  left:442px;
+  z-index:1;
+}
+
+.number_3{
+  position:absolute;
+  top:3520px;
+  left:493px;
+  z-index:2;
+}
+
+.open-a-new-tab{
+  position:absolute;
+  top:3603px;
+  left:430px;
+  z-index:2;
+}
+
+.bottom_rectangle{
+  position:absolute;
+  top:3803px;
+  width:100%;
+}
+
+.footer-privacy{
+  position:absolute;
+  top:3860px;
+  left:416px;
+  z-index:2;
+}
+
