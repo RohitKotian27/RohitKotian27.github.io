@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie-edge">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <body>
+    <div class="container">
+     <div class="row">
+      <div class="col-md-12">
+        <h1 class="text-center">
+          A Simple Login Form using Modal
+        </h1>
+        <p class="text-center">
+          <a href="#" class="btn btn-lg btn-primary" role="button" data-toggle="modal" data-target="#Modal-Login">Login Here</a>
+        </p>
+      </div>
+     </div>
+     </div>
+
+     <div class="modal fade" id="Modal-Login">
+       <div class="modal-dialog">
+         <div class="modal-content">
+           <div class="modal-header">
+             <img id="logo_img" class="img-thumbnail" src="Images/logo.jpg" alt="">
+           </div>
+           <div id="div-forms">
+             <form>
+               <div class="modal-body">
+                 <div>
+                   Type Your Username and Password Here:
+                 </div>
+                 <input class="form-control" type="text" placeholder="Username" required>
+                 <input class="form-control" type="password" placeholder="Password" required>
+                 <div class="checkbox">
+                  <label>
+                   <input type="checkbox">Remember Me!
+                  </label> 
+                 </div>
+                </div>
+                <div class="modal-footer"> 
+                 <button class="btn btn-primary">Login</button>
+                </div>
+             </form>
+           </div>
+         </div>
+       </div>
+     </div>
+  </body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</html>
