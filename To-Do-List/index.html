@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>To-Do List in JavaScript</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<style>
+		@media only screen and (max-width: 600px) {
+ 		 body {
+   				background-color: lightblue!important;
+  			}
+		}
+		body{
+			text-align: center;
+			font-family: Arial;
+			font-size: 20px;
+			line-height: 24px;
+			padding-top: 30px;
+		}
+		form{
+			padding-bottom: 50px!important;
+		}
+		li{
+			width: 0px!important;
+			padding-bottom: 10px!important;
+			margin: 0 auto;
+		}
+		h1{
+			padding-bottom: 10px;
+		}
+		.inputBox{
+			padding: 5px!important;
+		}
+	</style>
+</head>
+<body>
+  <div class="container-fluid">
+   <div class="jumbotron">	
+   <h1>This is a To-Do List</h1>
+    <form>
+     <input class="inputBox" type="text" name="task" id="inputBox" placeholder="Enter the task" required>
+     <button class="btn btn-info" type="reset" value="reset" id="addTask" onclick="add()">Add!</button>
+    </form>
+   </div>
+    <p id="Reminder"></p>  
+    <ol id="requiredTask"></ol>
+   </div>	   
+   <script>
+	   	  function add(){
+	   	  	    var enteredTask = document.getElementById("inputBox").value;
+                  if(enteredTask == ""){
+                  	alert("You cannot keep this field empty");
+                  }
+                  else{
+                    document.getElementById("requiredTask").innerHTMl ="Today's Task to be Performed:"
+	   	  			var item = document.createTextNode(enteredTask);
+	   	  			var node = document.createElement("li");
+	        		node.appendChild(item);
+	        		document.getElementById("requiredTask").appendChild(node);
+	        	  }	
+	   	  }
+	   </script>
+</body>
+</html>
