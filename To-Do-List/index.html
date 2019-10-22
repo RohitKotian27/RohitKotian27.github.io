@@ -1,63 +1,68 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>To-Do List in JavaScript</title>
+	<title>A To-Do List</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	<style>
-		@media only screen and (max-width: 600px) {
- 		 body {
-   				background-color: lightblue!important;
-  			}
+		*{
+			padding: 0;
+			margin: 0;
 		}
-		body{
-			text-align: center;
-			font-family: Arial;
-			font-size: 20px;
-			line-height: 24px;
-			padding-top: 30px;
+		.btn{
+			margin-top: 10px;
 		}
-		form{
-			padding-bottom: 50px!important;
+		.inp_box{
+			padding: 5px;
 		}
 		li{
 			width: 0px!important;
-			padding-bottom: 10px!important;
-			margin: 0 auto;
+			margin: 0 auto!important;
+			font-size: 22px;
+			line-height: 27px;
+			padding-bottom: 5px;
 		}
-		h1{
-			padding-bottom: 10px;
+		body{
+			background-color: #7FFFD4;
 		}
-		.inputBox{
-			padding: 5px!important;
+		.bg_jumbo{
+			background-color: #00FFFF;
+		}
+		@media screen and (max-width: 480px){
+          .mob_heading{
+          	font-size: 40px;
+          }
 		}
 	</style>
 </head>
 <body>
-  <div class="container-fluid">
-   <div class="jumbotron">	
-   <h1>This is a To-Do List</h1>
-    <form>
-     <input class="inputBox" type="text" name="task" id="inputBox" placeholder="Enter the task" required>
-     <button class="btn btn-info" type="reset" value="reset" id="addTask" onclick="add()">Add!</button>
-    </form>
-   </div>
-    <p id="Reminder"></p>  
-    <ol id="requiredTask"></ol>
-   </div>	   
-   <script>
-	   	  function add(){
-	   	  	    var enteredTask = document.getElementById("inputBox").value;
-                  if(enteredTask == ""){
-                  	alert("You cannot keep this field empty");
-                  }
-                  else{
-                    document.getElementById("requiredTask").innerHTMl ="Today's Task to be Performed:"
-	   	  			var item = document.createTextNode(enteredTask);
-	   	  			var node = document.createElement("li");
-	        		node.appendChild(item);
-	        		document.getElementById("requiredTask").appendChild(node);
-	        	  }	
-	   	  }
-	   </script>
+	<div class="container-fluid">
+		<div class="jumbotron bg_jumbo">
+			<h1 class="display-4 text-center mob_heading">This is a To-Do List</h1>
+			<form class="text-center">
+				<input class="inp_box" id="enteredtext" type="text" name="Task" placeholder="Enter task to be Performed" size="30">
+				<br>
+				<button type="reset" class="btn btn-success" onclick="Add()">Submit</button>
+			</form>
+		</div>
+		<ol class="ordered" id="displayText"></ol>
+		<script>
+			function Add(){
+				var EnteredValue = document.getElementById("enteredtext").value;
+				if (EnteredValue == ""){
+					alert("We cannot keep this field Empty!");
+				}
+				else{
+				    var item = document.createTextNode(EnteredValue);
+				    var node = document.createElement("li");
+				    node.appendChild(item);
+				    document.getElementById("displayText").appendChild(node);
+			    }
+            }
+		</script>
+	</div>
 </body>
 </html>
