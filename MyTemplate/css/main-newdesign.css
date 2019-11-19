@@ -2421,15 +2421,49 @@ a:hover {
 }
 
 /* line 837, ../../sass/components/_global.scss */
+.py80 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+/* line 842, ../../sass/components/_global.scss */
 .py120 {
   padding-top: 120px;
   padding-bottom: 120px;
 }
 
-/* line 842, ../../sass/components/_global.scss */
+/* line 847, ../../sass/components/_global.scss */
 .py100 {
   padding-top: 100px;
   padding-bottom: 100px;
+}
+
+/* line 852, ../../sass/components/_global.scss */
+.inp-box {
+  padding: 10px;
+}
+
+/* line 856, ../../sass/components/_global.scss */
+.msg-box {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 60px;
+}
+
+/* line 863, ../../sass/components/_global.scss */
+.mobBackground {
+  background-color: #000000;
+}
+
+/* line 867, ../../sass/components/_global.scss */
+#MBackground {
+  background-color: #000000;
+}
+
+/* line 871, ../../sass/components/_global.scss */
+#BlackBackground {
+  background-color: #000000;
 }
 
 /* ==========================================================================
@@ -2485,9 +2519,9 @@ a:hover {
 #footerSection .bottomSticky {
   bottom: 0;
   /*z-index: 111111111;*/
-  /*    .stickyHeader:active{
-        font-weight: normal;
-      }*/
+  /*		.stickyHeader:active{
+  			font-weight: normal;
+  		}*/
 }
 /* line 42, ../../sass/devices/mobile/_footer.scss */
 #footerSection .bottomSticky .stickyHeader {
@@ -2806,8 +2840,8 @@ li.Dynamic::before {
   background-color: #ffffff;
   padding: 0;
   z-index: 10;
-  /*  transition: top 0.3s;
-    scroll-behavior: smooth;*/
+  /*	transition: top 0.3s;
+  	scroll-behavior: smooth;*/
   -webkit-transition: -webkit-transform 500ms ease;
   -moz-transition: -moz-transform 500ms ease;
   -ms-transition: -ms-transform 500ms ease;
@@ -2945,12 +2979,12 @@ li.Dynamic::before {
   padding-top: 5px;
   /*padding: 11px 25px;*/
   /*margin: 26px 0 0 0;*/
-  /*      a, a:hover{
-          color: $color-teal;
-        }
-        a:active{
-          color: $color-darkGreen;
-        }*/
+  /*			a, a:hover{
+  				color: $color-teal;
+  			}
+  			a:active{
+  				color: $color-darkGreen;
+  			}*/
 }
 /* line 125, ../../sass/devices/mobile/_header.scss */
 #headerSection .container-fluid .piLinks .pi, #headerSection .container-fluid .piLinks .mg {
@@ -3343,12 +3377,12 @@ li.Dynamic::before {
   /* line 57, ../../sass/devices/desktop/_footer.scss */
   #footerSection .bottomSticky {
     /*z-index: 111111111;*/
-    /*    .stickyHeader:hover{
-          height: 40px;
-          p{
-            display:none;
-          }
-        }*/
+    /*		.stickyHeader:hover{
+    			height: 40px;
+    			p{
+    				display:none;
+    			}
+    		}*/
   }
   /* line 59, ../../sass/devices/desktop/_footer.scss */
   #footerSection .bottomSticky .stickyHeader:active {
@@ -3671,12 +3705,12 @@ li.Dynamic::before {
     float: right;
     width: auto;
     margin: 10px 0 0 0;
-    /*      a:hover{
-            color: $color-purple-dark;
-          }
-          a:active{
-            color: $color-purple-dark;
-          }*/
+    /*			a:hover{
+    				color: $color-purple-dark;
+    			}
+    			a:active{
+    				color: $color-purple-dark;
+    			}*/
   }
   /* line 18, ../../sass/devices/desktop/_header.scss */
   #headerSection .container-fluid .topNavLinks a {
