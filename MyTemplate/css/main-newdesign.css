@@ -2501,6 +2501,26 @@ a:hover {
   transform: translateX(-50%);
 }
 
+/* line 901, ../../sass/components/_global.scss */
+.custom_btn {
+  font-size: 12px;
+  padding: 12px 35px;
+}
+
+/* line 906, ../../sass/components/_global.scss */
+.transparent_btn {
+  font-size: 12px;
+  padding: 12px 35px;
+  background: transparent;
+  border: 1px solid #ffffff;
+}
+
+/* line 913, ../../sass/components/_global.scss */
+.contact_btn {
+  border-radius: 0px;
+  font-size: 12px;
+}
+
 /* ==========================================================================
  Footer CSS
 ========================================================================== */
