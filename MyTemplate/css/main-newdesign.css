@@ -3349,6 +3349,11 @@ li.Dynamic::before {
   position: relative;
 }
 
+/* line 34, ../../sass/devices/mobile/_test.scss */
+.mob_img {
+  height: 100vh;
+}
+
 @media only screen and (min-width: 992px) {
   /* ==========================================================================
    Footer CSS
