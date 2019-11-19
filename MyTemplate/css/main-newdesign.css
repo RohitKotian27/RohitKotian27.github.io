@@ -1257,278 +1257,284 @@ body {
 }
 
 /*Font-size*/
+/* line 32, ../../sass/components/_global.scss */
+.fs20 {
+  font-size: 20px;
+  line-height: 20px;
+}
+
 /*font family*/
-/* line 35, ../../sass/components/_global.scss */
+/* line 38, ../../sass/components/_global.scss */
 .montserrat {
   font-family: "Montserrat";
 }
 
-/* line 38, ../../sass/components/_global.scss */
+/* line 41, ../../sass/components/_global.scss */
 .roboto {
   font-family: "Roboto";
 }
 
-/* line 41, ../../sass/components/_global.scss */
+/* line 44, ../../sass/components/_global.scss */
 .robotoCondensed {
   font-family: "Roboto-Condensed";
 }
 
-/* line 44, ../../sass/components/_global.scss */
+/* line 47, ../../sass/components/_global.scss */
 .oxygenRegular {
   font-family: "Oxygen";
 }
 
-/* line 47, ../../sass/components/_global.scss */
+/* line 50, ../../sass/components/_global.scss */
 .heading_font {
   font-family: "Staatliches";
 }
 
 /*Font Families*/
-/* line 52, ../../sass/components/_global.scss */
+/* line 55, ../../sass/components/_global.scss */
 .extraBold {
   font-weight: 800;
 }
 
-/* line 55, ../../sass/components/_global.scss */
+/* line 58, ../../sass/components/_global.scss */
 .bold {
   font-weight: 700;
 }
 
-/* line 58, ../../sass/components/_global.scss */
+/* line 61, ../../sass/components/_global.scss */
 .light {
   font-weight: 300;
 }
 
-/* line 61, ../../sass/components/_global.scss */
+/* line 64, ../../sass/components/_global.scss */
 .medium {
   font-weight: 500;
 }
 
-/* line 64, ../../sass/components/_global.scss */
+/* line 67, ../../sass/components/_global.scss */
 .thin {
   font-weight: 100;
 }
 
-/* line 67, ../../sass/components/_global.scss */
+/* line 70, ../../sass/components/_global.scss */
 .italic {
   font-style: italic;
 }
 
-/* line 71, ../../sass/components/_global.scss */
+/* line 74, ../../sass/components/_global.scss */
 .hide {
   display: none;
 }
 
-/* line 74, ../../sass/components/_global.scss */
+/* line 77, ../../sass/components/_global.scss */
 .hidden {
   visibility: hidden;
   display: none;
 }
 
-/* line 78, ../../sass/components/_global.scss */
+/* line 81, ../../sass/components/_global.scss */
 .clrBoth {
   clear: both;
   height: 0;
 }
 
 /*Text Colors*/
-/* line 84, ../../sass/components/_global.scss */
+/* line 87, ../../sass/components/_global.scss */
 .txtPurple {
   color: #814c9e;
 }
 
-/* line 87, ../../sass/components/_global.scss */
+/* line 90, ../../sass/components/_global.scss */
 .txtPurple:hover {
   color: #5a356e;
 }
 
-/* line 90, ../../sass/components/_global.scss */
+/* line 93, ../../sass/components/_global.scss */
 .txtPurple:pressed {
   color: #814c9e;
 }
 
-/* line 93, ../../sass/components/_global.scss */
+/* line 96, ../../sass/components/_global.scss */
 .grayLightColor {
   color: #d8d8d8;
 }
 
-/* line 96, ../../sass/components/_global.scss */
+/* line 99, ../../sass/components/_global.scss */
 .txtDarkPurple {
   color: #5a356e !important;
 }
 
-/* line 99, ../../sass/components/_global.scss */
+/* line 102, ../../sass/components/_global.scss */
 .txtTeal {
   color: #814c9e;
 }
 
-/* line 102, ../../sass/components/_global.scss */
+/* line 105, ../../sass/components/_global.scss */
 .txtLightPurple {
   color: #a782bb;
 }
 
-/* line 105, ../../sass/components/_global.scss */
+/* line 108, ../../sass/components/_global.scss */
 .txtYellow {
   color: #fcce09;
 }
 
-/* line 108, ../../sass/components/_global.scss */
+/* line 111, ../../sass/components/_global.scss */
 .txtGrey {
   color: #e4e4e4;
 }
 
-/* line 111, ../../sass/components/_global.scss */
+/* line 114, ../../sass/components/_global.scss */
 .txtLightGrey {
   color: #f4f4f4;
 }
 
-/* line 114, ../../sass/components/_global.scss */
+/* line 117, ../../sass/components/_global.scss */
 .txtRed {
   color: red;
 }
 
-/* line 117, ../../sass/components/_global.scss */
+/* line 120, ../../sass/components/_global.scss */
 .txtBlack {
   color: #000000;
 }
 
-/* line 120, ../../sass/components/_global.scss */
+/* line 123, ../../sass/components/_global.scss */
 .txtIndigo {
   color: #4f0b7b;
 }
 
-/* line 123, ../../sass/components/_global.scss */
+/* line 126, ../../sass/components/_global.scss */
 .txtLine {
   color: #dfdfdf;
 }
 
-/* line 126, ../../sass/components/_global.scss */
+/* line 129, ../../sass/components/_global.scss */
 .txtcolorcenter {
   color: #370755;
 }
 
-/* line 129, ../../sass/components/_global.scss */
+/* line 132, ../../sass/components/_global.scss */
 .txtLink {
   color: #672f8d;
 }
 
 /*Background Colors*/
-/* line 136, ../../sass/components/_global.scss */
+/* line 139, ../../sass/components/_global.scss */
 .bgTeal {
   background-color: #814c9e;
 }
 
-/* line 139, ../../sass/components/_global.scss */
+/* line 142, ../../sass/components/_global.scss */
 .bgTransparent {
   background-color: transparent;
 }
 
-/* line 142, ../../sass/components/_global.scss */
+/* line 145, ../../sass/components/_global.scss */
 .bgGreen {
   background-color: #12545e;
 }
 
-/* line 145, ../../sass/components/_global.scss */
+/* line 148, ../../sass/components/_global.scss */
 .bgDarkGreen {
   background-color: #5a356e;
 }
 
-/* line 148, ../../sass/components/_global.scss */
+/* line 151, ../../sass/components/_global.scss */
 .bgpurplelighter {
   background-color: #e7e3ed;
 }
 
-/* line 151, ../../sass/components/_global.scss */
+/* line 154, ../../sass/components/_global.scss */
 .bgpurple {
   background-color: #814c9e;
 }
 
-/* line 154, ../../sass/components/_global.scss */
+/* line 157, ../../sass/components/_global.scss */
 .bgLightpurple {
   background-color: #a782bb;
 }
 
-/* line 157, ../../sass/components/_global.scss */
+/* line 160, ../../sass/components/_global.scss */
 .bgDarkpurple {
   background-color: #5a356e;
 }
 
-/* line 160, ../../sass/components/_global.scss */
+/* line 163, ../../sass/components/_global.scss */
 .bgLightGreen {
   background-color: green;
 }
 
-/* line 163, ../../sass/components/_global.scss */
+/* line 166, ../../sass/components/_global.scss */
 .bgYellow {
   background-color: #fcce09;
 }
 
-/* line 166, ../../sass/components/_global.scss */
+/* line 169, ../../sass/components/_global.scss */
 .bgGrey {
   background-color: #e4e4e4;
 }
 
-/* line 169, ../../sass/components/_global.scss */
+/* line 172, ../../sass/components/_global.scss */
 .bgLightGrey {
   background-color: #f4f4f4;
 }
 
-/* line 172, ../../sass/components/_global.scss */
+/* line 175, ../../sass/components/_global.scss */
 .bgBlue {
   background-color: #61c8e0;
 }
 
-/* line 175, ../../sass/components/_global.scss */
+/* line 178, ../../sass/components/_global.scss */
 .bgWhite {
   background-color: #ffffff;
 }
 
-/* line 178, ../../sass/components/_global.scss */
+/* line 181, ../../sass/components/_global.scss */
 .bgBlack {
   background-color: #000000;
 }
 
-/* line 181, ../../sass/components/_global.scss */
+/* line 184, ../../sass/components/_global.scss */
 .bgIndigo {
   background-color: #4f0b7b;
 }
 
-/* line 184, ../../sass/components/_global.scss */
+/* line 187, ../../sass/components/_global.scss */
 .bgfooterbottom {
   background-color: #370755;
 }
 
-/* line 187, ../../sass/components/_global.scss */
+/* line 190, ../../sass/components/_global.scss */
 .bg_opaque {
   background: rgba(0, 0, 0, 0.5);
 }
 
-/* line 191, ../../sass/components/_global.scss */
+/* line 194, ../../sass/components/_global.scss */
 .noBorder {
   border: none !important;
 }
 
-/* line 195, ../../sass/components/_global.scss */
+/* line 198, ../../sass/components/_global.scss */
 .box-shadowTxtButton {
   box-shadow: 0px 0px 30px 0px #ccc;
 }
 
-/* line 198, ../../sass/components/_global.scss */
+/* line 201, ../../sass/components/_global.scss */
 .box-shadow {
   box-shadow: 0px 0px 20px 2px #ccc;
 }
 
-/* line 201, ../../sass/components/_global.scss */
+/* line 204, ../../sass/components/_global.scss */
 .box-shadowTop {
   box-shadow: 0px 0px 18px 1px #ccc;
 }
 
-/* line 204, ../../sass/components/_global.scss */
+/* line 207, ../../sass/components/_global.scss */
 .greenBullet {
   margin-left: 14px;
 }
 
-/* line 207, ../../sass/components/_global.scss */
+/* line 210, ../../sass/components/_global.scss */
 .greenBullet:before {
   position: relative;
   top: 5px;
@@ -1538,47 +1544,47 @@ body {
   font-size: 27px;
 }
 
-/* line 215, ../../sass/components/_global.scss */
+/* line 218, ../../sass/components/_global.scss */
 .greenLink {
   color: #12545e !important;
   text-decoration: underline !important;
 }
 
-/* line 219, ../../sass/components/_global.scss */
+/* line 222, ../../sass/components/_global.scss */
 .greenLink:hover {
   color: #59878E !important;
 }
 
-/* line 222, ../../sass/components/_global.scss */
+/* line 225, ../../sass/components/_global.scss */
 .greenLink:active {
   opacity: 1;
   color: #0c3a41 !important;
 }
 
 /*border radius*/
-/* line 228, ../../sass/components/_global.scss */
+/* line 231, ../../sass/components/_global.scss */
 .b-radiustop {
   border-radius: 10px 10px 0px 0px;
 }
 
-/* line 231, ../../sass/components/_global.scss */
+/* line 234, ../../sass/components/_global.scss */
 .b-radiusbottom {
   border-radius: 0px 0px 10px 10px;
 }
 
-/* line 236, ../../sass/components/_global.scss */
+/* line 239, ../../sass/components/_global.scss */
 .purplePrimaryBtn {
   background-color: #814c9e;
   box-shadow: 0px 4px 10px 0px #814c9e;
 }
 
-/* line 240, ../../sass/components/_global.scss */
+/* line 243, ../../sass/components/_global.scss */
 .purplePrimaryBtn:hover {
   background-color: #a782bb;
   box-shadow: 0px 4px 10px 0px #a782bb;
 }
 
-/* line 244, ../../sass/components/_global.scss */
+/* line 247, ../../sass/components/_global.scss */
 .purplePrimaryBtn:focus {
   background-color: #814c9e;
   box-shadow: 0px 4px 10px 0px #814c9e;
@@ -1586,7 +1592,7 @@ body {
   border: none;
 }
 
-/* line 250, ../../sass/components/_global.scss */
+/* line 253, ../../sass/components/_global.scss */
 .purplePrimaryBtn:active {
   background-color: #5a356e;
   box-shadow: 0px 1px 6px 1px #5a356e;
@@ -1594,89 +1600,89 @@ body {
   border: none;
 }
 
-/* line 258, ../../sass/components/_global.scss */
+/* line 261, ../../sass/components/_global.scss */
 .purpleLink {
   color: #814c9e;
 }
 
-/* line 261, ../../sass/components/_global.scss */
+/* line 264, ../../sass/components/_global.scss */
 .purpleLink:hover {
   color: #a782bb;
 }
 
-/* line 264, ../../sass/components/_global.scss */
+/* line 267, ../../sass/components/_global.scss */
 .purpleLink:focus {
   color: #814c9e;
   outline: none;
   border: none;
 }
 
-/* line 269, ../../sass/components/_global.scss */
+/* line 272, ../../sass/components/_global.scss */
 .purpleLink:active {
   color: #5a356e;
   outline: none;
   border: none;
 }
 
-/* line 275, ../../sass/components/_global.scss */
+/* line 278, ../../sass/components/_global.scss */
 .txtWhite {
   color: #ffffff;
 }
 
-/* line 279, ../../sass/components/_global.scss */
+/* line 282, ../../sass/components/_global.scss */
 .txtWhite:hover {
   color: #ffffff;
 }
 
-/* line 282, ../../sass/components/_global.scss */
+/* line 285, ../../sass/components/_global.scss */
 .txtWhite:focus {
   color: #ffffff;
 }
 
-/* line 285, ../../sass/components/_global.scss */
+/* line 288, ../../sass/components/_global.scss */
 .txtWhite:active {
   color: #ffffff;
 }
 
-/* line 288, ../../sass/components/_global.scss */
+/* line 291, ../../sass/components/_global.scss */
 .learnMoreHover:hover > p {
   color: #000000;
 }
 
-/* line 291, ../../sass/components/_global.scss */
+/* line 294, ../../sass/components/_global.scss */
 .greenBtn {
   background-color: #814c9e;
 }
 
-/* line 294, ../../sass/components/_global.scss */
+/* line 297, ../../sass/components/_global.scss */
 .greenBtn:hover {
   background-color: rgba(26, 90, 100, 0.8);
 }
 
-/* line 297, ../../sass/components/_global.scss */
+/* line 300, ../../sass/components/_global.scss */
 .greenBtn:active {
   opacity: 1;
   background-color: #0c3a41;
 }
 
 /*active outline none*/
-/* line 304, ../../sass/components/_global.scss */
+/* line 307, ../../sass/components/_global.scss */
 a:active, a:hover {
   outline: none;
 }
 
-/* line 308, ../../sass/components/_global.scss */
+/* line 311, ../../sass/components/_global.scss */
 .whiteBtn {
   background-color: #ffffff;
 }
 
-/* line 311, ../../sass/components/_global.scss */
+/* line 314, ../../sass/components/_global.scss */
 .whiteBtn:active {
   background-color: #0c3a41;
   box-shadow: none !important;
 }
 
-/* line 316, ../../sass/components/_global.scss */
+/* line 319, ../../sass/components/_global.scss */
 .greenArrow {
   background: url("/static/images/greenArrow.png") no-repeat right;
   width: 17px;
@@ -1684,7 +1690,7 @@ a:active, a:hover {
   display: inline-block;
 }
 
-/* line 322, ../../sass/components/_global.scss */
+/* line 325, ../../sass/components/_global.scss */
 .whiteArrow {
   background: url("/static/images/whiteArrow.png") no-repeat;
   width: 17px;
@@ -1692,7 +1698,7 @@ a:active, a:hover {
   display: inline-block;
 }
 
-/* line 328, ../../sass/components/_global.scss */
+/* line 331, ../../sass/components/_global.scss */
 .greyArrow {
   background: url("/static/images/greyArrow.png") no-repeat;
   width: 17px;
@@ -1701,141 +1707,136 @@ a:active, a:hover {
   margin-top: 5px;
 }
 
-/* line 336, ../../sass/components/_global.scss */
+/* line 339, ../../sass/components/_global.scss */
 .fn {
   float: none;
 }
 
-/* line 339, ../../sass/components/_global.scss */
+/* line 342, ../../sass/components/_global.scss */
 .cb {
   clear: both;
 }
 
-/* line 342, ../../sass/components/_global.scss */
+/* line 345, ../../sass/components/_global.scss */
 .center {
   text-align: center;
 }
 
-/* line 345, ../../sass/components/_global.scss */
+/* line 348, ../../sass/components/_global.scss */
 .b-radious4 {
   border-radius: 4px;
 }
 
-/* line 348, ../../sass/components/_global.scss */
+/* line 351, ../../sass/components/_global.scss */
 .b-radious5 {
   border-radius: 5px;
 }
 
-/* line 351, ../../sass/components/_global.scss */
+/* line 354, ../../sass/components/_global.scss */
 .borderRadiusTopLeftRight {
   border-radius: 20px 20px 0 0 !important;
 }
 
-/* line 354, ../../sass/components/_global.scss */
+/* line 357, ../../sass/components/_global.scss */
 .borderRadiusBottomLeftRight {
   border-radius: 0 0 20px 20px !important;
 }
 
-/* line 357, ../../sass/components/_global.scss */
+/* line 360, ../../sass/components/_global.scss */
 .borderRadiusContent {
   border-radius: 20px !important;
 }
 
-/* line 361, ../../sass/components/_global.scss */
+/* line 364, ../../sass/components/_global.scss */
 .flex-1 {
   flex: 1;
 }
 
-/* line 364, ../../sass/components/_global.scss */
+/* line 367, ../../sass/components/_global.scss */
 .underline {
   text-decoration: underline;
 }
 
 /*Width CSS*/
-/* line 370, ../../sass/components/_global.scss */
+/* line 373, ../../sass/components/_global.scss */
 .w-40 {
   width: 40%;
 }
 
-/* line 373, ../../sass/components/_global.scss */
+/* line 376, ../../sass/components/_global.scss */
 .w-60 {
   width: 60%;
 }
 
-/* line 376, ../../sass/components/_global.scss */
+/* line 379, ../../sass/components/_global.scss */
 .w-70 {
   width: 70%;
 }
 
-/* line 379, ../../sass/components/_global.scss */
+/* line 382, ../../sass/components/_global.scss */
 .w-80 {
   width: 80%;
 }
 
-/* line 382, ../../sass/components/_global.scss */
+/* line 385, ../../sass/components/_global.scss */
 .w-90 {
   width: 90%;
 }
 
 /*margin top css*/
-/* line 387, ../../sass/components/_global.scss */
+/* line 390, ../../sass/components/_global.scss */
 .mt0 {
   margin-top: 0;
 }
 
-/* line 390, ../../sass/components/_global.scss */
+/* line 393, ../../sass/components/_global.scss */
 .mt5 {
   margin-top: 5px;
 }
 
-/* line 393, ../../sass/components/_global.scss */
+/* line 396, ../../sass/components/_global.scss */
 .mt10 {
   margin-top: 10px;
 }
 
-/* line 396, ../../sass/components/_global.scss */
+/* line 399, ../../sass/components/_global.scss */
 .mt15 {
   margin-top: 15px;
 }
 
-/* line 399, ../../sass/components/_global.scss */
+/* line 402, ../../sass/components/_global.scss */
 .mt20 {
   margin-top: 20px;
 }
 
-/* line 402, ../../sass/components/_global.scss */
+/* line 405, ../../sass/components/_global.scss */
 .mt25 {
   margin-top: 25px;
 }
 
-/* line 405, ../../sass/components/_global.scss */
+/* line 408, ../../sass/components/_global.scss */
 .mt30 {
   margin-top: 30px;
 }
 
-/* line 408, ../../sass/components/_global.scss */
+/* line 411, ../../sass/components/_global.scss */
 .mt35 {
   margin-top: 35px;
 }
 
-/* line 411, ../../sass/components/_global.scss */
+/* line 414, ../../sass/components/_global.scss */
 .mt40 {
   margin-top: 40px;
 }
 
-/* line 414, ../../sass/components/_global.scss */
+/* line 417, ../../sass/components/_global.scss */
 .mt50 {
   margin-top: 50px;
 }
 
-/* line 417, ../../sass/components/_global.scss */
+/* line 420, ../../sass/components/_global.scss */
 .mt60 {
   margin-top: 60px;
-}
-
-/* line 420, ../../sass/components/_global.scss */
-.mt70 {
-  margin-top: 70px;
 }
 
 /* line 423, ../../sass/components/_global.scss */
@@ -1853,329 +1854,339 @@ a:active, a:hover {
   margin-top: 70px;
 }
 
-/* line 433, ../../sass/components/_global.scss */
+/* line 432, ../../sass/components/_global.scss */
+.mt70 {
+  margin-top: 70px;
+}
+
+/* line 436, ../../sass/components/_global.scss */
 .mt_5 {
   margin-top: -5px;
 }
 
-/* line 436, ../../sass/components/_global.scss */
+/* line 439, ../../sass/components/_global.scss */
 .mt_25 {
   margin-top: -25px;
 }
 
 /*margin bottom css*/
-/* line 440, ../../sass/components/_global.scss */
+/* line 443, ../../sass/components/_global.scss */
 .mb5 {
   margin-bottom: 5px;
 }
 
-/* line 443, ../../sass/components/_global.scss */
+/* line 446, ../../sass/components/_global.scss */
 .mb10 {
   margin-bottom: 10px;
 }
 
-/* line 446, ../../sass/components/_global.scss */
+/* line 449, ../../sass/components/_global.scss */
 .mb20 {
   margin-bottom: 20px;
 }
 
-/* line 449, ../../sass/components/_global.scss */
+/* line 452, ../../sass/components/_global.scss */
 .mb30 {
   margin-bottom: 30px;
 }
 
-/* line 452, ../../sass/components/_global.scss */
+/* line 455, ../../sass/components/_global.scss */
 .mb40 {
   margin-bottom: 40px;
 }
 
 /*margin left css*/
-/* line 457, ../../sass/components/_global.scss */
+/* line 460, ../../sass/components/_global.scss */
 .ml0 {
   margin-left: 0;
 }
 
-/* line 460, ../../sass/components/_global.scss */
+/* line 463, ../../sass/components/_global.scss */
 .ml5 {
   margin-left: 5px;
 }
 
-/* line 463, ../../sass/components/_global.scss */
+/* line 466, ../../sass/components/_global.scss */
 .ml10 {
   margin-left: 10px;
 }
 
-/* line 466, ../../sass/components/_global.scss */
+/* line 469, ../../sass/components/_global.scss */
 .ml15 {
   margin-left: 15px;
 }
 
-/* line 469, ../../sass/components/_global.scss */
+/* line 472, ../../sass/components/_global.scss */
 .ml20 {
   margin-left: 20px;
 }
 
-/* line 472, ../../sass/components/_global.scss */
+/* line 475, ../../sass/components/_global.scss */
 .ml25 {
   margin-left: 25px;
 }
 
-/* line 475, ../../sass/components/_global.scss */
+/* line 478, ../../sass/components/_global.scss */
 .ml35 {
   margin-left: 35px;
 }
 
-/* line 478, ../../sass/components/_global.scss */
+/* line 481, ../../sass/components/_global.scss */
 .ml50 {
   margin-left: 50px;
 }
 
-/* line 483, ../../sass/components/_global.scss */
+/* line 486, ../../sass/components/_global.scss */
 .ml_10 {
   margin-left: -10px;
 }
 
-/* line 486, ../../sass/components/_global.scss */
+/* line 489, ../../sass/components/_global.scss */
 .ml_15 {
   margin-left: -15px;
 }
 
-/* line 489, ../../sass/components/_global.scss */
+/* line 492, ../../sass/components/_global.scss */
 .ml_25 {
   margin-left: -25px;
 }
 
-/* line 493, ../../sass/components/_global.scss */
+/* line 496, ../../sass/components/_global.scss */
 .mb_20 {
   margin-bottom: -20px;
 }
 
-/* line 496, ../../sass/components/_global.scss */
+/* line 499, ../../sass/components/_global.scss */
 .mb_25 {
   margin-bottom: -25px;
 }
 
-/* line 499, ../../sass/components/_global.scss */
+/* line 502, ../../sass/components/_global.scss */
 .mb_30 {
   margin-bottom: -30px;
 }
 
-/* line 502, ../../sass/components/_global.scss */
+/* line 505, ../../sass/components/_global.scss */
 .mb_40 {
   margin-bottom: -40px;
 }
 
-/* line 505, ../../sass/components/_global.scss */
+/* line 508, ../../sass/components/_global.scss */
 .mb_50 {
   margin-bottom: -50px;
 }
 
 /*padding top css*/
-/* line 510, ../../sass/components/_global.scss */
+/* line 513, ../../sass/components/_global.scss */
 .pt0 {
   padding-top: 0px;
 }
 
-/* line 513, ../../sass/components/_global.scss */
+/* line 516, ../../sass/components/_global.scss */
 .pt5 {
   padding-top: 5px;
 }
 
-/* line 516, ../../sass/components/_global.scss */
+/* line 519, ../../sass/components/_global.scss */
 .pt10 {
   padding-top: 10px;
 }
 
-/* line 519, ../../sass/components/_global.scss */
+/* line 522, ../../sass/components/_global.scss */
 .pt15 {
   padding-top: 15px;
 }
 
-/* line 522, ../../sass/components/_global.scss */
+/* line 525, ../../sass/components/_global.scss */
 .pt20 {
   padding-top: 20px;
 }
 
-/* line 525, ../../sass/components/_global.scss */
+/* line 528, ../../sass/components/_global.scss */
 .pt25 {
   padding-top: 25px;
 }
 
-/* line 528, ../../sass/components/_global.scss */
+/* line 531, ../../sass/components/_global.scss */
 .pt30 {
   padding-top: 30px;
 }
 
-/* line 531, ../../sass/components/_global.scss */
+/* line 534, ../../sass/components/_global.scss */
 .pt35 {
   padding-top: 35px;
 }
 
-/* line 534, ../../sass/components/_global.scss */
+/* line 537, ../../sass/components/_global.scss */
 .pt60 {
   padding-top: 60px;
 }
 
-/* line 537, ../../sass/components/_global.scss */
+/* line 540, ../../sass/components/_global.scss */
 .pt80 {
   padding-top: 80px;
 }
 
-/* line 540, ../../sass/components/_global.scss */
+/* line 543, ../../sass/components/_global.scss */
 .pt120 {
   padding-top: 120px;
 }
 
+/* line 546, ../../sass/components/_global.scss */
+.pt150 {
+  padding-top: 150px;
+}
+
 /*padding bottom css*/
-/* line 545, ../../sass/components/_global.scss */
+/* line 551, ../../sass/components/_global.scss */
 .pb5 {
   padding-bottom: 5px;
 }
 
-/* line 548, ../../sass/components/_global.scss */
+/* line 554, ../../sass/components/_global.scss */
 .pb10 {
   padding-bottom: 10px;
 }
 
-/* line 551, ../../sass/components/_global.scss */
+/* line 557, ../../sass/components/_global.scss */
 .pb15 {
   padding-bottom: 15px;
 }
 
-/* line 554, ../../sass/components/_global.scss */
+/* line 560, ../../sass/components/_global.scss */
 .pb20 {
   padding-bottom: 20px;
 }
 
-/* line 557, ../../sass/components/_global.scss */
+/* line 563, ../../sass/components/_global.scss */
 .pb25 {
   padding-bottom: 25px;
 }
 
-/* line 560, ../../sass/components/_global.scss */
+/* line 566, ../../sass/components/_global.scss */
 .pb30 {
   padding-bottom: 30px;
 }
 
-/* line 563, ../../sass/components/_global.scss */
+/* line 569, ../../sass/components/_global.scss */
 .pb40 {
   padding-bottom: 40px;
 }
 
-/* line 566, ../../sass/components/_global.scss */
+/* line 572, ../../sass/components/_global.scss */
 .pb60 {
   padding-bottom: 60px;
 }
 
-/* line 569, ../../sass/components/_global.scss */
+/* line 575, ../../sass/components/_global.scss */
 .pb80 {
   padding-bottom: 80px;
 }
 
-/* line 572, ../../sass/components/_global.scss */
+/* line 578, ../../sass/components/_global.scss */
 .pb120 {
   padding-bottom: 120px;
 }
 
-/* line 575, ../../sass/components/_global.scss */
+/* line 581, ../../sass/components/_global.scss */
 .pl15 {
   padding-left: 15px;
 }
 
-/* line 579, ../../sass/components/_global.scss */
+/* line 585, ../../sass/components/_global.scss */
 .pr15 {
   padding-right: 15px;
 }
 
-/* line 583, ../../sass/components/_global.scss */
+/* line 589, ../../sass/components/_global.scss */
 .pl20 {
   padding-left: 20px;
 }
 
-/* line 587, ../../sass/components/_global.scss */
+/* line 593, ../../sass/components/_global.scss */
 .pl30 {
   padding-left: 30px;
 }
 
-/* line 590, ../../sass/components/_global.scss */
+/* line 596, ../../sass/components/_global.scss */
 .pl70 {
   padding-left: 70px;
 }
 
-/* line 594, ../../sass/components/_global.scss */
+/* line 600, ../../sass/components/_global.scss */
 .pr20 {
   padding-right: 20px !important;
 }
 
-/* line 598, ../../sass/components/_global.scss */
+/* line 604, ../../sass/components/_global.scss */
 .pl20 {
   padding-left: 20px !important;
 }
 
-/* line 602, ../../sass/components/_global.scss */
+/* line 608, ../../sass/components/_global.scss */
 .p0 {
   padding: 0px;
 }
 
-/* line 605, ../../sass/components/_global.scss */
+/* line 611, ../../sass/components/_global.scss */
 .px-60 {
   padding-left: 350px;
   padding-right: 350px;
 }
 
-/* line 609, ../../sass/components/_global.scss */
+/* line 615, ../../sass/components/_global.scss */
 .noWrap {
   white-space: nowrap;
 }
 
-/* line 612, ../../sass/components/_global.scss */
+/* line 618, ../../sass/components/_global.scss */
 .border-none {
   border: none;
 }
 
-/* line 615, ../../sass/components/_global.scss */
+/* line 621, ../../sass/components/_global.scss */
 .border1pxIndigo {
   border: 1px solid #4f0b7b;
 }
 
-/* line 618, ../../sass/components/_global.scss */
+/* line 624, ../../sass/components/_global.scss */
 .border-radious-none {
   border-radius: 0;
 }
 
-/* line 621, ../../sass/components/_global.scss */
+/* line 627, ../../sass/components/_global.scss */
 .sprite {
   background-image: url("/static/images/sprite.png");
 }
 
-/* line 624, ../../sass/components/_global.scss */
+/* line 630, ../../sass/components/_global.scss */
 button {
   outline: none;
   border: none;
 }
 
-/* line 630, ../../sass/components/_global.scss */
+/* line 636, ../../sass/components/_global.scss */
 a:hover {
   text-decoration: none;
 }
 
-/* line 633, ../../sass/components/_global.scss */
+/* line 639, ../../sass/components/_global.scss */
 .btn.focus, .btn:focus {
   box-shadow: none;
 }
 
-/* line 636, ../../sass/components/_global.scss */
+/* line 642, ../../sass/components/_global.scss */
 .handCursor {
   cursor: pointer;
 }
 
 /*Navigation Menu bar css Starts*/
-/* line 641, ../../sass/components/_global.scss */
+/* line 647, ../../sass/components/_global.scss */
 .navbar {
   padding: 0;
 }
 
-/* line 644, ../../sass/components/_global.scss */
+/* line 650, ../../sass/components/_global.scss */
 .ddArrow {
   float: right;
   width: 11px;
@@ -2185,7 +2196,7 @@ a:hover {
   padding: 3px;
 }
 
-/* line 652, ../../sass/components/_global.scss */
+/* line 658, ../../sass/components/_global.scss */
 .closedd {
   border: solid #814c9e;
   border-width: 0 2px 2px 0;
@@ -2193,7 +2204,7 @@ a:hover {
   -webkit-transform: rotate(45deg);
 }
 
-/* line 659, ../../sass/components/_global.scss */
+/* line 665, ../../sass/components/_global.scss */
 .nav-link:hover .closedd {
   border: solid #814c9e;
   border-width: 0 2px 2px 0;
@@ -2201,7 +2212,7 @@ a:hover {
   -webkit-transform: rotate(45deg);
 }
 
-/* line 666, ../../sass/components/_global.scss */
+/* line 672, ../../sass/components/_global.scss */
 .opendd {
   margin-top: 10px;
   border: solid #12545e;
@@ -2210,7 +2221,7 @@ a:hover {
   -webkit-transform: rotate(225deg);
 }
 
-/* line 674, ../../sass/components/_global.scss */
+/* line 680, ../../sass/components/_global.scss */
 .nav-link:hover .opendd {
   margin-top: 10px;
   border: solid #814c9e;
@@ -2219,7 +2230,7 @@ a:hover {
   -webkit-transform: rotate(225deg);
 }
 
-/* line 682, ../../sass/components/_global.scss */
+/* line 688, ../../sass/components/_global.scss */
 .dropdown-menu {
   width: 100%;
   height: auto;
@@ -2229,61 +2240,61 @@ a:hover {
   border-radius: 0;
   background-color: transparent;
 }
-/* line 690, ../../sass/components/_global.scss */
+/* line 696, ../../sass/components/_global.scss */
 .dropdown-menu .dropdown-item {
   padding: 10px 0;
 }
 
-/* line 695, ../../sass/components/_global.scss */
+/* line 701, ../../sass/components/_global.scss */
 .dropdown-toggle:after {
   display: block;
   border: none;
 }
 
-/* line 699, ../../sass/components/_global.scss */
+/* line 705, ../../sass/components/_global.scss */
 .navbar-toggler.collapsed {
   padding: 0;
   z-index: 10;
 }
 
-/* line 706, ../../sass/components/_global.scss */
+/* line 712, ../../sass/components/_global.scss */
 .nav-item.show .dropdown-toggle {
   display: block;
   border: none;
   outline: none;
 }
 
-/* line 712, ../../sass/components/_global.scss */
+/* line 718, ../../sass/components/_global.scss */
 .navbar-toggler {
   width: 58px;
   height: 25px;
   padding: 0;
 }
 
-/* line 717, ../../sass/components/_global.scss */
+/* line 723, ../../sass/components/_global.scss */
 .navbar-toggler.collapsed > .close, .navbar-toggler:not(.collapsed) > .navbar-toggler-icon {
   display: none;
   background-image: none;
 }
 
-/* line 721, ../../sass/components/_global.scss */
+/* line 727, ../../sass/components/_global.scss */
 .navbar-toggler:not(:disabled):not(.disabled) {
   outline: none;
   z-index: 40;
 }
 
 /*Navigation Menu bar css Ends*/
-/* line 727, ../../sass/components/_global.scss */
+/* line 733, ../../sass/components/_global.scss */
 .middle {
   margin: 0 auto;
 }
 
-/* line 731, ../../sass/components/_global.scss */
+/* line 737, ../../sass/components/_global.scss */
 .nohover {
   opacity: 0;
 }
 
-/* line 734, ../../sass/components/_global.scss */
+/* line 740, ../../sass/components/_global.scss */
 .whiteOverlay {
   display: none;
   position: fixed;
@@ -2295,62 +2306,62 @@ a:hover {
   z-index: -1;
 }
 
-/* line 745, ../../sass/components/_global.scss */
+/* line 751, ../../sass/components/_global.scss */
 .dropdown-item.active, .dropdown-item:focus, .dropdown-item:hover {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
-/* line 748, ../../sass/components/_global.scss */
+/* line 754, ../../sass/components/_global.scss */
 .dropdown-item:active {
   background-color: #0c3a41;
 }
 
-/* line 753, ../../sass/components/_global.scss */
+/* line 759, ../../sass/components/_global.scss */
 .yellowContainer a:hover {
   color: #12545e;
 }
 
-/* line 757, ../../sass/components/_global.scss */
+/* line 763, ../../sass/components/_global.scss */
 .max-width-1600 {
   max-width: 1600px;
 }
 
-/* line 762, ../../sass/components/_global.scss */
+/* line 768, ../../sass/components/_global.scss */
 .border-radius20 {
   border-radius: 20px;
 }
 
-/* line 765, ../../sass/components/_global.scss */
+/* line 771, ../../sass/components/_global.scss */
 .border-radius30 {
   border-radius: 30px;
 }
 
-/* line 768, ../../sass/components/_global.scss */
+/* line 774, ../../sass/components/_global.scss */
 .border-radius40 {
   border-radius: 40px;
 }
 
-/* line 771, ../../sass/components/_global.scss */
+/* line 777, ../../sass/components/_global.scss */
 .border-radius50 {
   border-radius: 50px;
 }
 
-/* line 774, ../../sass/components/_global.scss */
+/* line 780, ../../sass/components/_global.scss */
 .border-radius60 {
   border-radius: 60px;
 }
 
-/* line 777, ../../sass/components/_global.scss */
+/* line 783, ../../sass/components/_global.scss */
 .ls0 {
   letter-spacing: 0;
 }
 
-/* line 780, ../../sass/components/_global.scss */
+/* line 786, ../../sass/components/_global.scss */
 .modelHeaderSpace {
   padding: 0px 32px;
 }
 
-/* line 783, ../../sass/components/_global.scss */
+/* line 789, ../../sass/components/_global.scss */
 .modelHeaderButton {
   color: #f4f4f4;
   top: 15px;
@@ -2358,92 +2369,92 @@ a:hover {
   z-index: 1;
 }
 
-/* line 789, ../../sass/components/_global.scss */
+/* line 795, ../../sass/components/_global.scss */
 .modelHeaderImage {
   z-index: 0;
   right: 0;
   right: -1px;
 }
 
-/* line 794, ../../sass/components/_global.scss */
+/* line 800, ../../sass/components/_global.scss */
 .modal-footerColor {
   background-color: #f4f4f4;
   border-top: 2px solid #638c2c;
 }
 
-/* line 798, ../../sass/components/_global.scss */
+/* line 804, ../../sass/components/_global.scss */
 .btnHoverState:hover {
   background-color: transparent;
   color: #4f0b7b;
   border: 1px solid #4f0b7b;
 }
 
-/* line 805, ../../sass/components/_global.scss */
+/* line 811, ../../sass/components/_global.scss */
 .font-weight500 {
   font-weight: 500;
 }
 
-/* line 808, ../../sass/components/_global.scss */
+/* line 814, ../../sass/components/_global.scss */
 .li-style-position {
   list-style-position: inside;
   text-indent: -1em;
 }
 
-/* line 813, ../../sass/components/_global.scss */
+/* line 819, ../../sass/components/_global.scss */
 .box_height {
   height: 280px;
 }
 
-/* line 817, ../../sass/components/_global.scss */
+/* line 823, ../../sass/components/_global.scss */
 .bg_height {
   height: 200px;
 }
 
-/* line 821, ../../sass/components/_global.scss */
+/* line 827, ../../sass/components/_global.scss */
 .borderLine {
   width: 100px;
   height: 3px;
 }
 
-/* line 826, ../../sass/components/_global.scss */
+/* line 832, ../../sass/components/_global.scss */
 #EigthSection {
   background-color: #f6f6f6;
 }
 
-/* line 829, ../../sass/components/_global.scss */
+/* line 835, ../../sass/components/_global.scss */
 .br_0 {
   border-radius: 0px;
 }
 
-/* line 833, ../../sass/components/_global.scss */
+/* line 839, ../../sass/components/_global.scss */
 #LatestPost {
   background-color: #f6f6f6;
 }
 
-/* line 837, ../../sass/components/_global.scss */
+/* line 843, ../../sass/components/_global.scss */
 .py80 {
   padding-top: 80px;
   padding-bottom: 80px;
 }
 
-/* line 842, ../../sass/components/_global.scss */
+/* line 848, ../../sass/components/_global.scss */
 .py120 {
   padding-top: 120px;
   padding-bottom: 120px;
 }
 
-/* line 847, ../../sass/components/_global.scss */
+/* line 853, ../../sass/components/_global.scss */
 .py100 {
   padding-top: 100px;
   padding-bottom: 100px;
 }
 
-/* line 852, ../../sass/components/_global.scss */
+/* line 858, ../../sass/components/_global.scss */
 .inp-box {
   padding: 10px;
 }
 
-/* line 856, ../../sass/components/_global.scss */
+/* line 862, ../../sass/components/_global.scss */
 .msg-box {
   padding-top: 10px;
   padding-left: 10px;
@@ -2451,19 +2462,43 @@ a:hover {
   padding-bottom: 60px;
 }
 
-/* line 863, ../../sass/components/_global.scss */
+/* line 869, ../../sass/components/_global.scss */
 .mobBackground {
   background-color: #000000;
 }
 
-/* line 867, ../../sass/components/_global.scss */
+/* line 873, ../../sass/components/_global.scss */
 #MBackground {
   background-color: #000000;
 }
 
-/* line 871, ../../sass/components/_global.scss */
+/* line 877, ../../sass/components/_global.scss */
 #BlackBackground {
   background-color: #000000;
+}
+
+/* line 881, ../../sass/components/_global.scss */
+.greyBorder {
+  height: 1px;
+  background-color: #808080;
+}
+
+/* line 886, ../../sass/components/_global.scss */
+.grey {
+  color: #808080;
+}
+
+/* line 890, ../../sass/components/_global.scss */
+.darkGrey {
+  color: #585858;
+}
+
+/* line 894, ../../sass/components/_global.scss */
+.imgAdjustment {
+  position: absolute;
+  top: -120px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 /* ==========================================================================
@@ -3307,6 +3342,11 @@ li.Dynamic::before {
 .m-px-10 {
   padding-left: 10px;
   padding-right: 10px;
+}
+
+/* line 30, ../../sass/devices/mobile/_test.scss */
+.mobSection {
+  position: relative;
 }
 
 @media only screen and (min-width: 992px) {
