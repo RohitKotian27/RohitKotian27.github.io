@@ -3366,10 +3366,11 @@ li.Dynamic::before {
 
 /* line 30, ../../sass/devices/mobile/_test.scss */
 .mobSection {
-  position: relative;
+  position: relative !important;
+  background-color: #000;
 }
 
-/* line 34, ../../sass/devices/mobile/_test.scss */
+/* line 35, ../../sass/devices/mobile/_test.scss */
 .mob_img {
   height: 100vh;
 }
@@ -4173,5 +4174,17 @@ li.Dynamic::before {
   .px-200 {
     padding-left: 200px;
     padding-right: 200px;
+  }
+
+  /* line 52, ../../sass/devices/desktop/_test.scss */
+  .px-lg-200 {
+    padding-left: 200px !important;
+    padding-right: 200px !important;
+  }
+
+  /* line 57, ../../sass/devices/desktop/_test.scss */
+  .mobSection {
+    position: absolute !important;
+    background-color: transparent;
   }
 }
