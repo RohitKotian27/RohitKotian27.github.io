@@ -19,32 +19,23 @@
     .bgcolor{
       background-color: #000000!important;
     }
-    .fntcolor{
-      color: #ffffff!important;
-    }
-    .shadow{
-      text-shadow: -3px -3px 10px #fff!important;
-    }
     .blocker{
       display: block;
-    }
-    .btn_color{
-      background-color: #1401FE;
-      color: #ffffff;
     }
     .jumbotron{
       border-radius: 0px!important;
     }
     .ftcolor{
-      background-color: #585858;
+      color: #ffffff;
+    }
+    .image{
+      width: 100%!important;
+      height: 100vh!important;
     }
   @media screen and (max-width: 480px){
     .mob_font{
       font-size: 30px!important;
       line-height: 32px!important;
-    }
-    .jumbotron{
-      margin-bottom: 1rem;
     }
     .mob_blocker{
       display: block!important;
@@ -53,15 +44,24 @@
   }
 </style>
 <body>
-  <div class="container-fluid px-0">
-      <div class="jumbotron bgcolor">
-  	   <h1 class="display-4 text-center mt-4 mb-4 mob_font fntcolor shadow"><span class="blocker">Welcome to</span> Random <span class="mob_blocker">"Quote"</span> <span class="mob_blocker">Generator</span></h1>
-      </div> 
-  	<div class="center_text">
-  		<button class="btn btn-primary mt-3" onclick="fetch()">Get Quote Now!</button>
-      <h3 id="quote" class="mt-lg-4 mt-3 px-3"></h3>
-  	</div>
-  </div>
+  <section>
+    <div class="container-fluid px-0">
+      <div class="row no-gutters">
+        <div class="col-12">
+          <div class="row position-relative no-gutters">
+            <img src="Images/Background.png" class="image" alt="">
+            <div class="position-absolute text-center w-100 mt-5">
+              <h1 class="display-4 ftcolor mt-5 mb-4 center_text mob_font"><span class="blocker">Welcome to</span> Random <span class="mob_blocker">"Quote"</span> <span class="mob_blocker">Generator</span></h1>
+              <div class="center_text">
+              <button class="btn btn-primary mt-3 mb-lg-5 mb-1" onclick="fetch()">Get Quote Now!</button>
+              <h3 id="quote" class="mt-lg-4 mt-5 px-3 ftcolor"></h3>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <script>
       function fetch(){
         var entries = ["In any project, the important factor is your belief. Without belief there can be no successful outcome.","Well done is better than well said.","Life is 10% what happens to you and 90% how you react to it.","It does not matter how slowly you go as long as you do not stop.","I believe life is an intelligent thing: that things aren't random.","I have always believed that each man makes his own happiness and is responsible for his own problems. It is a simple philosophy.","Only one thing is ever guaranteed, that is that you will definitely not achieve the goal if you don't take the shot.","The fact is that grief today is a family matter as much as it is an individual one.","Reading without reflecting is like eating without digesting.","If you wish to know what a man is, place him in authority.","If you can find a path with no obstacles, it probably doesn't lead anywhere.","As you know, madness is like gravity…all it takes is a little push."];
