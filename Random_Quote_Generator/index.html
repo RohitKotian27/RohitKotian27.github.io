@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -32,6 +33,19 @@
       width: 100%!important;
       height: 100vh!important;
     }
+    .imgOverlay {
+    background: rgba(0, 0, 0, 0.6);
+    }
+    .custom_btn{
+      background:transparent;
+      border: 1px solid #ffffff;
+      border-radius: 50px;
+      color: #000000;
+      background-color: #ffffff;
+      font-weight: bold;
+      padding: 12px 30px;
+      outline: none;
+    }
   @media screen and (max-width: 480px){
     .mob_font{
       font-size: 30px!important;
@@ -39,10 +53,6 @@
     }
     .mob_blocker{
       display: block!important;
-    }
-    .image{
-      width: 100%!important;
-      height: 100vh!important;
     }
   }
 </style>
@@ -52,12 +62,15 @@
       <div class="row no-gutters">
         <div class="col-12">
           <div class="row position-relative no-gutters">
+            <div class="position-absolute col-12 h-100 w-100 imgOverlay">
+             &nbsp;
+            </div>
             <img src="Images/Background.png" class="image" alt="">
             <div class="position-absolute text-center w-100 mt-5">
               <h1 class="display-4 ftcolor mt-5 mb-4 center_text mob_font"><span class="blocker">Welcome to</span> Random <span class="mob_blocker">"Quote"</span> <span class="mob_blocker">Generator</span></h1>
               <div class="center_text">
-              <button class="btn btn-primary mt-3 mb-lg-5 mb-1" onclick="fetch()">Get Quote Now!</button>
-              <h3 id="quote" class="mt-lg-4 mt-lg-5 mt-3 px-3 ftcolor"></h3>
+              <button class="btn custom_btn mt-3 mb-lg-5 mb-1" onclick="fetch()">Get Quote Now!</button>
+              <h3 id="quote" class="mt-lg-4 mt-3 px-3 ftcolor"></h3>
             </div>
             </div>
           </div>
