@@ -1,15 +1,47 @@
 @media screen and (max-width:480px){
 	.mob_bg-font{
 		font-family: 'Patua One', cursive;
-		font-size: 50px!important;
-		line-height: 60px!important;
+		font-size: 40px!important;
+		line-height: 45px!important;
 		color: #fff!important;
+	}
+
+	.mob_heading{
+		font-size: 2.5rem!important;
 	}
 }
 
-.bg_font{
+.navbar_font{
 	font-family: 'Patua One', cursive;
-	font-size: 80px;
-	line-height: 90px;
+	font-size: 20px;
+	line-height: 25px;
 	color: #fff;
+}
+
+.body_font{
+	font-family: 'Patua One', cursive;
+	font-size: 20px;
+	line-height: 25px;
+	color: #000;
+}
+
+
+
+.navbar-brand{
+	font-size: 30px!important;
+	line-height: 35px!important;
+	color: #fff;
+}
+
+.bg-Section1{
+	background-color: #DCDCDC;
+}
+
+.navbar_bg{
+	background-color: #000000;
+}
+
+.fullscreen{
+	width: 100vw;
+	height: 100vh;
 }
