@@ -9,6 +9,19 @@
 	.mob_heading{
 		font-size: 2.5rem!important;
 	}
+
+	.m-fs-20{
+		font-size: 20px!important;
+	}
+
+	.m-fs-35{
+		font-size: 35px!important;
+	}
+
+	.m-fs-16{
+		font-size: 16px!important;
+		line-height: 22px!important;
+	}
 }
 
 .navbar_font{
@@ -25,7 +38,19 @@
 	color: #000;
 }
 
+.fs30{
+	font-size: 30px;
+}
 
+.fs20{
+	font-size: 20px;
+	line-height: 26px;
+}
+
+.fs18{
+	font-size: 16px;
+	line-height: 22px;
+}
 
 .navbar-brand{
 	font-size: 30px!important;
@@ -38,7 +63,7 @@
 }
 
 .navbar_bg{
-	background-color: #000;
+	background-color: #000000;
 }
 
 .fullscreen{
