@@ -1,4 +1,4 @@
-@media screen and (max-width:480px){
+@media screen and (max-width:480px){/*Mobile Media Query*/
 	.mob_bg-font{
 		font-family: 'Patua One', cursive;
 		font-size: 40px!important;
@@ -10,6 +10,7 @@
 		font-size: 2.5rem!important;
 	}
 
+	/*Font Sizes*/
 	.m-fs-20{
 		font-size: 20px!important;
 	}
@@ -22,6 +23,25 @@
 		font-size: 16px!important;
 		line-height: 22px!important;
 	}
+	.mob_img{
+		width: 70%!important;
+		margin: 0 auto;
+		display: block;
+	}
+}
+/*Desktop Font Sizes*/
+.fs30{
+	font-size: 30px;
+}
+
+.fs20{
+	font-size: 20px;
+	line-height: 26px;
+}
+
+.fs16{
+	font-size: 16px;
+	line-height: 22px;
 }
 
 .navbar_font{
@@ -36,20 +56,6 @@
 	font-size: 20px;
 	line-height: 25px;
 	color: #000;
-}
-
-.fs30{
-	font-size: 30px;
-}
-
-.fs20{
-	font-size: 20px;
-	line-height: 26px;
-}
-
-.fs18{
-	font-size: 16px;
-	line-height: 22px;
 }
 
 .navbar-brand{
@@ -69,4 +75,8 @@
 .fullscreen{
 	width: 100vw;
 	height: 100vh;
+}
+
+.card{
+	border-color: #A9A9A9;
 }
