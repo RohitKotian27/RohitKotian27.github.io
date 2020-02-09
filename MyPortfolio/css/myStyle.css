@@ -39,6 +39,11 @@
 	line-height: 26px;
 }
 
+.fs24{
+	font-size: 24px;
+	line-height: 30px;
+}
+
 .fs16{
 	font-size: 16px;
 	line-height: 22px;
@@ -61,6 +66,7 @@
 .navbar-brand{
 	font-size: 30px!important;
 	line-height: 35px!important;
+	font-family: 'Lobster', cursive;
 	color: #fff;
 }
 
@@ -72,6 +78,12 @@
 	background-color: #000000;
 }
 
+.footer_bg{
+	background-color: #000000;
+	text-align: center;
+	bottom: 0px;
+}
+
 .fullscreen{
 	width: 100vw;
 	height: 100vh;
@@ -80,3 +92,37 @@
 .card{
 	border-color: #A9A9A9;
 }
+
+.customInput{
+	border-color: #000000;
+}
+
+.bgLastSection{
+	background-color: #181818;
+}
+
+.myCircle{
+	border: 1px solid #fff;
+	border-radius: 100%;
+	width: 100px;
+	height: 100px;
+}
+
+.fa-facebook-square:hover{
+	color: #3b5998!important;
+}
+
+.fa-instagram:hover{
+	color: #ffc838!important;
+}
+
+.fa-linkedin-square:hover{
+	color: aqua!important;
+}
+
+.fa-whatsapp:hover{
+	color: #4FCE5D!important;
+}
+
+
+
