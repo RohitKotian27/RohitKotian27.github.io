@@ -108,6 +108,10 @@
 	height: 100px;
 }
 
+.customText{
+	border: 2px solid #000!important;
+}
+
 .fa-facebook-square:hover{
 	color: #3b5998!important;
 }
