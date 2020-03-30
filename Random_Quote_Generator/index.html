@@ -1,61 +1,18 @@
-
 <!DOCTYPE html>
 <html>
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Random Quote Generator</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/myScript.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/myStyle.css">
 </head>
-<style>
-    *{
-      padding: 0;
-      margin: 0;
-    }
-    .center_text{
-      text-align: center!important;
-    }
-    .bgcolor{
-      background-color: #000000!important;
-    }
-    .blocker{
-      display: block;
-    }
-    .jumbotron{
-      border-radius: 0px!important;
-    }
-    .ftcolor{
-      color: #ffffff;
-    }
-    .image{
-      width: 100%!important;
-      height: 100vh!important;
-    }
-    .imgOverlay {
-    background: rgba(0, 0, 0, 0.6);
-    }
-    .custom_btn{
-      background:transparent;
-      border: 1px solid #ffffff;
-      border-radius: 50px;
-      color: #000000;
-      background-color: #ffffff;
-      font-weight: bold;
-      padding: 12px 30px;
-      outline: none;
-    }
-  @media screen and (max-width: 480px){
-    .mob_font{
-      font-size: 30px!important;
-      line-height: 32px!important;
-    }
-    .mob_blocker{
-      display: block!important;
-    }
-  }
-</style>
 <body>
   <section>
     <div class="container-fluid px-0">
@@ -65,12 +22,12 @@
             <div class="position-absolute col-12 h-100 w-100 imgOverlay">
              &nbsp;
             </div>
-            <img src="Images/Background.png" class="image" alt="">
+            <img src="images/background.png" class="image" alt="">
             <div class="position-absolute text-center w-100 mt-5">
               <h1 class="display-4 ftcolor mt-5 mb-4 center_text mob_font"><span class="blocker">Welcome to</span> Random <span class="mob_blocker">"Quote"</span> <span class="mob_blocker">Generator</span></h1>
               <div class="center_text">
-              <button class="btn custom_btn mt-3 mb-lg-5 mb-1" onclick="fetch()">Get Quote Now!</button>
-              <h3 id="quote" class="mt-lg-4 mt-3 px-3 ftcolor"></h3>
+              <button class="btn custom_btn mt-3 mb-lg-5 mb-1">Get Quote Now!</button>
+              <h3 id="quote" class="mt-lg-4 mt-3 px-4 mx-lg-5 ftcolor"></h3>
             </div>
             </div>
           </div>
@@ -78,12 +35,5 @@
       </div>
     </div>
   </section>
-  <script>
-      function fetch(){
-        var entries = ["In any project, the important factor is your belief. Without belief there can be no successful outcome.","Well done is better than well said.","Life is 10% what happens to you and 90% how you react to it.","It does not matter how slowly you go as long as you do not stop.","I believe life is an intelligent thing: that things aren't random.","I have always believed that each man makes his own happiness and is responsible for his own problems. It is a simple philosophy.","Only one thing is ever guaranteed, that is that you will definitely not achieve the goal if you don't take the shot.","The fact is that grief today is a family matter as much as it is an individual one.","Reading without reflecting is like eating without digesting.","If you wish to know what a man is, place him in authority.","If you can find a path with no obstacles, it probably doesn't lead anywhere.","As you know, madness is like gravity…all it takes is a little push.","Don’t let what you cannot do interfere with what you can do.","Successful and unsuccessful people do not vary greatly in their abilities. They vary in their desires to reach their potential.","Strive for progress, not perfection.","There are no shortcuts to any place worth going.","Failure is the opportunity to begin again more intelligently.","Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time.","You’ve got to get up every morning with determination if you’re going to go to bed with satisfaction."];
-        var randomValue = entries[Math.floor(Math.random() * entries.length)];
-        document.getElementById("quote").innerHTML= '"' +  randomValue + '"'; 
-      }
-  </script>
 </body>
 </html>
