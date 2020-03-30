@@ -10,7 +10,6 @@ $(document).ready(function(){
 			var result = '<div class="mytext">\
 						<div class="remove">X</div>' + myValue + '</div>';
 		$('.myList').append(result);
-		$('.inp1').focus();
 	}
 	});
 	$('.myList').on('click','.remove',function(){
