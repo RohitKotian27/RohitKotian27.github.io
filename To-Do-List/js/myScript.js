@@ -8,11 +8,12 @@ $(document).ready(function(){
 		}
 		else{
 			var result = '<div class="mytext">\
-						<div class="remove">X</div>' + myValue + '</div>';
-		$('.myList').append(result);
+						<div class="fa fa-trash-o"></div>' + myValue + '</div>';
+		    $('.myList').append(result);
+		    $('.inp1').val("");
 	}
 	});
-	$('.myList').on('click','.remove',function(){
+	$('.myList').on('click','.fa-trash-o',function(){
 		$(this).parent().fadeOut(1000);
 	});
 });
