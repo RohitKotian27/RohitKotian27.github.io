@@ -1,35 +1,83 @@
- *{
-  padding: 0px;
-  margin: 0px;
- }
-/*Form section starts*/
-  .inp1{
-  	padding: 5px;
+  *{
+   padding: 0px;
+   margin: 0px;
   }
-  .myList{
-  	font-size: 20px;
-    line-height: 20px;
-  }
-/*Form section ends*/
-
-  .mytext{
-  	background-color: #c6c6c6;
-  	color: #000;
-  	width: 300px;
-    padding: 15px;
-    margin: 10px auto;
+  .noWrap{
+   white-space: nowrap;
   }
 
-  .myBtn{
-    background-color: #000;
-    color: #fff;
+  /*Jumbotron CSS starts*/
+  .jumbotron{
+   background-color: #FFFF00!important;
   }
+  .sub_content{
+   font-size: 19px;
+   line-height: 22px;
+  }
+  /*Jumbotron CSS ends*/
 
-  .myBtn:hover{
-    color: #fff!important;
-  }
+ /*Form section starts*/
+   .inp1{
+    padding: 5px;
+     border-color: #000;
+   }
+   .myList{
+    font-size: 20px;
+     line-height: 20px;
+   }
+ /*Form section ends*/
 
-  .remove{
-    float: right;
-    cursor: pointer;
-  }
+   /*Text section starts here*/
+   .mytext{
+    background-color: #FFFF00;
+    color: #000;
+    width: 300px;
+     padding: 15px;
+     margin: 10px auto;
+     font-weight: 500;
+     height: auto;
+   }
+
+   .myBtn{
+     background-color: #FFFF00;
+     color: #000;
+     font-weight: bold;
+   }
+
+   .myBtn:hover{
+     color: #000!important;
+   }
+   .fa-trash-o{
+     float: right;
+     cursor: pointer;
+     font-size: 22px;
+     color: #000;
+     font-weight: 500;
+   }
+   .fa-trash-o:hover{
+     color: #ff0000; 
+   }
+   /*Text Section ends here*/
+
+   /*Mobile CSS starts here*/
+   @media screen and (max-width: 480px){
+     h1{
+       font-size: 28px!important;
+     }
+     .inp1{
+       display: block!important;
+       width: 100%!important;
+     }
+     .jumbotron{
+       padding: 16px!important;
+       margin-bottom: 20px!important;
+     }
+     .sub_content{
+      font-size: 16px;
+      line-height: 21px;
+     }
+     .mytext{
+       width: 100%!important;
+     }
+   }
+   /*Mobile CSS ends here*/
