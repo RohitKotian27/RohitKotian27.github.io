@@ -8,7 +8,7 @@
 
   /*Jumbotron CSS starts*/
   .jumbotron{
-   background-color: #FFFF00!important;
+   background-color: #138496!important;
   }
   .sub_content{
    font-size: 19px;
@@ -29,7 +29,7 @@
 
    /*Text section starts here*/
    .mytext{
-    background-color: #FFFF00;
+    background-color: #138496;
     color: #000;
     width: 300px;
      padding: 15px;
@@ -39,7 +39,7 @@
    }
 
    .myBtn{
-     background-color: #FFFF00;
+     background-color: #138496;
      color: #000;
      font-weight: bold;
    }
