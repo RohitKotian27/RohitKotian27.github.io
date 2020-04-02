@@ -8,7 +8,8 @@
 
   /*Jumbotron CSS starts*/
   .jumbotron{
-   background-color: #138496!important;
+   background-color: #EC8B5E!important;
+   color: #141A46!important;
   }
   .sub_content{
    font-size: 19px;
@@ -19,7 +20,7 @@
  /*Form section starts*/
    .inp1{
     padding: 5px;
-     border-color: #000;
+    border-color: #141A46;
    }
    .myList{
     font-size: 20px;
@@ -29,8 +30,8 @@
 
    /*Text section starts here*/
    .mytext{
-    background-color: #138496;
-    color: #000;
+    background-color: #EC8B5E;
+    color: #141A46;
     width: 300px;
      padding: 15px;
      margin: 10px auto;
@@ -39,19 +40,20 @@
    }
 
    .myBtn{
-     background-color: #138496;
-     color: #000;
+     background-color: #EC8B5E;
+     color: #141A46;
      font-weight: bold;
+     outline: none;
    }
 
    .myBtn:hover{
-     color: #000!important;
+     color: #141A46!important;
    }
    .fa-trash-o{
      float: right;
      cursor: pointer;
      font-size: 22px;
-     color: #000;
+     color: #141A46;
      font-weight: 500;
    }
    .fa-trash-o:hover{
