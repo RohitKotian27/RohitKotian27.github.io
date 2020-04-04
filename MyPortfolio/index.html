@@ -10,7 +10,12 @@
     <link href="https://fonts.googleapis.com/css?family=Patua+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.js"
+      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+      crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="css/myStyle.css">
+    <script src="js/myScript.js"></script>
 </head>
 <body class="body_font">
 	<nav class="navbar navbar-expand-lg navbar-dark navbar_font navbar_bg p-lg-3">
@@ -169,11 +174,15 @@
 				    <div class="row mx-lg-5 pt-lg-5 pt-4 px-lg-5 px-0">
 				    	<div class="col-12">
 				    		<form class="form-inline">
-				    			<input class="w-100 p-lg-3 mb-lg-4 mb-3 p-2 customInput" maxlength="30" type="text" name="Name" placeholder="Name" required>
-				    			<input class="w-100 p-lg-3 mb-lg-4 mb-3 p-2 customInput" maxlength="40" type="email" name="email" placeholder="Email" required>
-				    			<input class="w-100 p-lg-3 mb-lg-4 mb-3 p-2 customInput" maxlength="10" type="text" name="number" placeholder="Phone Number" required>
-				    			<textarea class="w-100 p-lg-3 mb-lg-4 mb-3 p-2 customText" size="50" maxlength="100" type="text" name="text" placeholder="Message" required></textarea>
-				    			<button type="Submit" class="btn btn-info btn-lg m-fs-16">SEND</button>
+				    			<input class="w-100 p-lg-3 mb-lg-4 mb-3 p-2 customInput" maxlength="30" type="text" name="Name" placeholder="Your name" required>
+				    			<input class="w-100 p-lg-3 mb-lg-4 mb-3 p-2 customInput" maxlength="10" type="text" name="number" placeholder="Mobile number" required>
+				    			<input class="w-100 p-lg-3 mb-lg-4 mb-3 p-2 customInput" maxlength="40" type="email" name="email" placeholder="Email-id" required>
+				    			<div class="w-100 mb-lg-4 mb-3">
+				    				<input type="checkbox" class="tick" name="checked" id="checked">
+				    				<label class="d-inline">Any message ?</label>
+				    			</div>
+				    			<textarea class="w-100 p-lg-3 mb-lg-4 mb-3 p-2 customText" size="50" maxlength="100" type="text" name="text" placeholder="Your message" required></textarea>
+				    			<button type="Submit" class="d-block btn btn-info btn-lg m-fs-16">SEND</button>
 				    		</form>
 				    	</div>	
 				    </div>
