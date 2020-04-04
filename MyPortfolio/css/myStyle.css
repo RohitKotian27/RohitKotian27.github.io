@@ -110,6 +110,11 @@
 
 .customText{
 	border: 2px solid #000!important;
+	display: none;
+}
+
+.tick{
+	font-size: 20px;
 }
 
 .fa-facebook-square:hover{
