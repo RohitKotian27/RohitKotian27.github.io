@@ -1,0 +1,11 @@
+$(document).ready(function(){
+	$('.tick').on('change',function(){
+		if($(this).is(':checked')){
+			$('.customText').fadeIn(1000);
+		}
+		else{
+			$('.customText').fadeOut(1000);
+		}
+	});
+	$('.customText').trigger('change');
+});
