@@ -1,11 +1,4 @@
 @media screen and (max-width:480px){/*Mobile Media Query*/
-	.mob_bg-font{
-		font-family: 'Patua One', cursive;
-		font-size: 40px!important;
-		line-height: 45px!important;
-		color: #fff!important;
-	}
-
 	.mob_heading{
 		font-size: 2.5rem!important;
 	}
@@ -28,6 +21,11 @@
 		margin: 0 auto;
 		display: block;
 	}
+	.fa_size {
+    width: 30px!important;
+    height: 20px!important;
+    font-size: 20px!important;
+}
 }
 /*Desktop Font Sizes*/
 .fs30{
