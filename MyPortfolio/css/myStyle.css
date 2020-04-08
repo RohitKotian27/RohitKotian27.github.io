@@ -49,15 +49,25 @@
 	line-height: 22px;
 }
 
-.navbar_font{
+/*Font awesome css starts*/
+	.fa_size{
+		width: 30px;
+		height: 20px;
+	}
+/*Font awesome css ends*/
+
+.heading{
 	font-family: 'Patua One', cursive;
+}
+.navbar_font{
+	font-family: 'Cairo', sans-serif;
 	font-size: 20px;
 	line-height: 25px;
 	color: #fff;
 }
 
 .body_font{
-	font-family: 'Patua One', cursive;
+	font-family: 'Cairo', sans-serif;
 	font-size: 20px;
 	line-height: 25px;
 	color: #000;
@@ -84,17 +94,14 @@
 	bottom: 0px;
 }
 
-.fullscreen{
-	width: 100vw;
-	height: 100vh;
-}
-
 .card{
 	border-color: #A9A9A9;
 }
 
 .customInput{
 	border-color: #000000;
+	border-radius: 5px;
+	outline:none;
 }
 
 .bgLastSection{
@@ -110,6 +117,7 @@
 
 .customText{
 	border: 2px solid #000!important;
+	border-radius: 5px;
 	display: none;
 }
 
@@ -131,6 +139,11 @@
 
 .fa-whatsapp:hover{
 	color: #4FCE5D!important;
+}
+
+.mx-1600{
+	max-width: 1600px!important;
+	margin: 0 auto;
 }
 
 
