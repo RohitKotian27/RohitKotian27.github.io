@@ -1,10 +1,10 @@
 $(document).ready(function(){
 	$('.tick').on('change',function(){
 		if($(this).is(':checked')){
-			$('.customText').fadeIn(1000);
+			$('.customText').fadeIn(500);
 		}
 		else{
-			$('.customText').fadeOut(1000);
+			$('.customText').fadeOut(500);
 		}
 	});
 	$('.customText').trigger('change');
