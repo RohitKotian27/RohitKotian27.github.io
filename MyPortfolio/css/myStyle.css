@@ -1,32 +1,28 @@
-@media screen and (max-width:480px){/*Mobile Media Query*/
-	.mob_heading{
-		font-size: 2.5rem!important;
-	}
 
-	/*Font Sizes*/
-	.m-fs-20{
-		font-size: 20px!important;
-	}
-
-	.m-fs-35{
-		font-size: 35px!important;
-	}
-
-	.m-fs-16{
-		font-size: 16px!important;
-		line-height: 22px!important;
-	}
-	.mob_img{
-		width: 70%!important;
-		margin: 0 auto;
-		display: block;
-	}
-	.fa_size {
-    width: 30px!important;
-    height: 20px!important;
-    font-size: 20px!important;
+.card_content{
+	display: none;
+	padding: 0rem 1.25rem 1.25rem 1.25rem;
 }
+
+.btn_down{
+	float: right!important;
+	cursor: pointer;
+	transition-duration: 0.5s;
 }
+
+.card-title{
+	padding: 1.25rem;
+}
+
+.card-body{
+	padding: 0px!important;
+}
+
+.trnsfrm_180{
+	transform: rotate(180deg);
+	transition-duration: 0.5s;
+}
+
 /*Desktop Font Sizes*/
 .fs30{
 	font-size: 30px;
@@ -144,4 +140,40 @@
 	margin: 0 auto;
 }
 
+@media screen and (max-width:480px){/*Mobile Media Query*/
+	.mob_bg-font{
+		font-family: 'Patua One', cursive;
+		font-size: 40px!important;
+		line-height: 45px!important;
+		color: #fff!important;
+	}
+
+	.mob_heading{
+		font-size: 2.5rem!important;
+	}
+
+	/*Font Sizes*/
+	.m-fs-20{
+		font-size: 20px!important;
+	}
+
+	.m-fs-35{
+		font-size: 35px!important;
+	}
+
+	.m-fs-16{
+		font-size: 16px!important;
+		line-height: 22px!important;
+	}
+	.mob_img{
+		width: 70%!important;
+		margin: 0 auto;
+		display: block;
+	}
+	.fa_size {
+    width: 30px!important;
+    height: 20px!important;
+    font-size: 20px!important;
+}
+}
 
