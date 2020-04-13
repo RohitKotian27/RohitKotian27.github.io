@@ -1,4 +1,6 @@
-
+.navbar-toggler{
+	outline: none!important;
+}
 .card_content{
 	display: none;
 	padding: 0rem 1.25rem 1.25rem 1.25rem;
