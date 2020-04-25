@@ -8,59 +8,77 @@
 
   /*Jumbotron CSS starts*/
   .jumbotron{
-   background-color: #EC8B5E!important;
-   color: #141A46!important;
+   background-color: #FFA07A!important;
+   color: #000!important;
   }
   .sub_content{
    font-size: 19px;
    line-height: 22px;
+  }
+  .burgundy{
+    color: #8D021F!important;
   }
   /*Jumbotron CSS ends*/
 
  /*Form section starts*/
    .inp1{
     padding: 5px;
-    border-color: #141A46;
+    border-color: #000;
    }
    .myList{
     font-size: 20px;
      line-height: 20px;
+     z-index: 8;
    }
  /*Form section ends*/
 
    /*Text section starts here*/
+   .green{
+     color: #006600;
+   }
    .mytext{
     background-color: #EC8B5E;
-    color: #141A46;
-    width: 300px;
-     padding: 15px;
-     margin: 10px auto;
-     font-weight: 500;
-     height: auto;
+    color: #000;
+    width: 400px;
+    padding: 15px;
+    margin: 10px auto;
+    font-weight: 500;
+    height: auto;
+    cursor: pointer;
    }
 
    .myBtn{
      background-color: #EC8B5E;
-     color: #141A46;
-     font-weight: bold;
+     color: #000;
+     font-weight: 700;
      outline: none;
    }
 
    .myBtn:hover{
-     color: #141A46!important;
+     color: #000!important;
+   }
+   .flt_none{
+    float: none!important;
    }
    .fa-trash-o{
      float: right;
      cursor: pointer;
      font-size: 22px;
-     color: #141A46;
+     color: #000;
      font-weight: 500;
    }
    .fa-trash-o:hover{
-     color: #ff0000; 
+     color: #ff0000!important; 
    }
    /*Text Section ends here*/
 
+
+    /*Task Completed CSS Starts here*/
+      .completed{
+        background-color: #228B22!important;
+        color: #fff!important;
+      }
+    /*Task Completed CSS Ends here */
    /*Mobile CSS starts here*/
    @media screen and (max-width: 480px){
      h1{
