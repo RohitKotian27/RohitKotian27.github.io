@@ -13,7 +13,13 @@ $(document).ready(function(){
 		    $('.inp1').val("");
 	}
 	});
+
 	$('.myList').on('click','.fa-trash-o',function(){
 		$(this).parent().fadeOut(1000);
 	});
+
+    $('.myList').on('click','.mytext',function(){
+    	$(this).addClass("completed");
+    	$(this).children().css("color","#fff");
+    });
 });
