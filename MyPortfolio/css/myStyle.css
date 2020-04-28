@@ -4,12 +4,25 @@
 .card_content{
 	display: none;
 	padding: 0rem 1.25rem 1.25rem 1.25rem;
+	background: rgba(255,255,255,0.87);
+	bottom: 0px;
+	height: 100%;
 }
 
 .btn_down{
 	float: right!important;
 	cursor: pointer;
-	transition-duration: 0.5s;
+	transition-duration: 0.7s;
+}
+
+.btn-block{
+	background-color: #000;
+	color: #fff;
+}
+
+.btn-block:hover{
+	color: #fff;
+	background-color: #101010;
 }
 
 .card-title{
@@ -22,7 +35,7 @@
 
 .trnsfrm_180{
 	transform: rotate(180deg);
-	transition-duration: 0.5s;
+	transition-duration: 0.7s;
 }
 
 /*Desktop Font Sizes*/
@@ -92,6 +105,15 @@
 
 .card{
 	border-color: #A9A9A9;
+}
+
+.card-body{
+	z-index: 999;
+	background-color: #fff;
+}
+
+.card-text{
+	padding-top: 4.5rem;
 }
 
 .customInput{
