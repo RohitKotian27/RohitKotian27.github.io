@@ -12,7 +12,7 @@ $(document).ready(function(){
 	/*Accordian JS Starts here*/
 	$(".btn_down").click(function(){
 		$(this).toggleClass("trnsfrm_180");
-		$(this).parent().next().slideToggle(500);
+		$(this).parent().parent().prev().slideToggle(700);
 	});
 	/*Accordian JS ends here*/
 });
