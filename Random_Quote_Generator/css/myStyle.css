@@ -5,6 +5,10 @@
     .center_text{
       text-align: center!important;
     }
+    .img-resp{
+      width: 100vw;
+      height: 100vh;
+    }
     .bgcolor{
       background-color: #000000!important;
     }
