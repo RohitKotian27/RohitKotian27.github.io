@@ -7,7 +7,7 @@ $(document).ready(function(){
 		}
 		else{ 	
 			var result = '<div class="mytext">\
-						<div class="fa fa-trash-o del_btn"></div>' + myValue + '</div>';
+						<div class="fa fa-trash-o del_btn"></div><span class="fa fa-check check_button"></span>' + myValue + '</div>';
 		    $('.myList').append(result);
 		    $('.inp1').val("");
 	}
@@ -17,8 +17,9 @@ $(document).ready(function(){
 		$(this).parent().fadeOut(1000);
 	});
 
-    $('.myList').on('dblclick','.mytext',function(){
-    	$(this).addClass("completed");
-    	$(this).children().css("color","#fff");
+    $('.myList').on('click','.check_button',function(){
+    	$(this).parent().addClass("completed");
+    	$(this).siblings().css("color","#fff");
+    	$(this).css("color","#fff");
     });
 });
