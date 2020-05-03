@@ -28,7 +28,6 @@
    .myList{
     font-size: 20px;
      line-height: 20px;
-     z-index: 8;
    }
  /*Form section ends*/
 
@@ -60,15 +59,26 @@
    .flt_none{
     float: none!important;
    }
-   .fa-trash-o{
+   .del_btn{
      float: right;
      cursor: pointer;
      font-size: 22px;
      color: #000;
      font-weight: 500;
    }
-   .fa-trash-o:hover{
+   .del_btn:hover{
      color: #ff0000!important; 
+   }
+   .check_button{
+     float: right;
+     cursor: pointer;
+     font-size: 22px;
+     color: #000;
+     font-weight: 500;
+     padding: 0px 10px;
+   }
+   .check_button:hover{
+    color: #228B22;
    }
    /*Text Section ends here*/
 
