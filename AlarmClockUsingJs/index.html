@@ -1,59 +1,74 @@
+  
 <!DOCTYPE html>
 <html>
 <head>
 	<title>Alarm Clock using JS</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<style>
+		#myAlarm{
+			display: none;
+		}
+	</style>
 	<script type="text/javascript" src=""></script>
 </head>
 <body>
-	<div class="container-fluid text-center">
-		<h1 class="mt-5">World Clock</h1>
-		<h2 id="timeNow"></h2>
-			<p class="lead">Set the time for Alarm</p>
-				<select id="hours">
-					<option value="null">Hours</option>
-					<option value="00">00</option>
-					<option value="1">01</option>
-					<option value="2">02</option>
-					<option value="3">03</option>
-					<option value="4">04</option>
-					<option value="5">05</option>
-					<option value="6">06</option>
-					<option value="7">07</option>
-					<option value="8">08</option>
-					<option value="9">09</option>
-					<option value="10">10</option>
-					<option value="11">11</option>
-					<option value="12">12</option>
-				</select>
-				<select id="minutes">
-					<option value="null">Minutes</option>
-					<option value="00">00</option>
-					<option value="05">05</option>
-					<option value="10">10</option>
-					<option value="15">15</option>
-					<option value="20">20</option>
-					<option value="25">25</option>
-					<option value="30">30</option>
-					<option value="35">35</option>
-					<option value="40">40</option>
-					<option value="45">45</option>
-					<option value="50">50</option>
-					<option value="55">55</option>
-					<option value="60">60</option>
-				</select>
-				<select id="timing">
-					<option value="AM">AM</option>
-					<option value="PM">PM</option>
-				</select>
-					<button class="btn btn-info d-block mx-auto my-3" onclick="fetch()">Set Alarm!</button>	
+	<div class="container-fluid text-center my-5">
+	  <div class="row">
+	  	 <div class="col-12">
+	  	 	<h1 class="mb-3">Welcome to the Customized Alarm Clock</h1>
+	  	 	<h2 class="mb-3">"Good morning, make positive thoughts and enjoy every moment of this day!"</h2>
+	  	 	<h3>Current Time : <span id="timeNow">&nbsp;</span></h3>
+	  	 		<p class="lead">Set the time for Alarm</p>
+	  	 			<select id="hours">
+	  	 				<option value="null">Hours</option>
+	  	 				<option value="00">00</option>
+	  	 				<option value="1">01</option>
+	  	 				<option value="2">02</option>
+	  	 				<option value="3">03</option>
+	  	 				<option value="4">04</option>
+	  	 				<option value="5">05</option>
+	  	 				<option value="6">06</option>
+	  	 				<option value="7">07</option>
+	  	 				<option value="8">08</option>
+	  	 				<option value="9">09</option>
+	  	 				<option value="10">10</option>
+	  	 				<option value="11">11</option>
+	  	 				<option value="12">12</option>
+	  	 			</select>
+	  	 			<select id="minutes">
+	  	 				<option value="null">Minutes</option>
+	  	 				<option value="00">00</option>
+	  	 				<option value="05">05</option>
+	  	 				<option value="10">10</option>
+	  	 				<option value="15">15</option>
+	  	 				<option value="20">20</option>
+	  	 				<option value="25">25</option>
+	  	 				<option value="30">30</option>
+	  	 				<option value="35">35</option>
+	  	 				<option value="40">40</option>
+	  	 				<option value="45">45</option>
+	  	 				<option value="50">50</option>
+	  	 				<option value="55">55</option>
+	  	 				<option value="60">60</option>
+	  	 			</select>
+	  	 			<select id="timing">
+	  	 				<option value="AM">AM</option>
+	  	 				<option value="PM">PM</option>
+	  	 			</select>
+	  	 			<button class="btn btn-info d-block mx-auto my-3" onclick="fetch()">Set Alarm!</button>
+	  	 			<div class="text-center">
+	  	 				<audio class="mx-auto" id="myAlarm" controls>
+	  	 					<source src="https://actions.google.com/sounds/v1/alarms/digital_watch_alarm_long.ogg">
+	  	 				</audio>	
+	  	 			</div>
+	  	 </div>
+	  </div>		
 	</div>				
 </body>
 <script>
-
+	var myAudio = document.getElementById("myAlarm");
 	function fetch(){
-	
 		var hh = document.getElementById("hours").value;
 		var mm = document.getElementById("minutes").value;
 		var timing = document.getElementById("timing").value;
@@ -63,7 +78,7 @@
 		}
 		else{
 			alert("Alarm has been Set");
-			setInterval(compare,1000);
+			setInterval(compare,60000);
 		}
 
 		function compare(){
@@ -72,9 +87,12 @@
 			var mytimeinhr = mytime.replace(/:\d+ /, ' ');
 			if(mytimeinhr == alarm){
 				console.log("Timing is matched");
+				document.getElementById("myAlarm").style.display = "block";
+				enableAutoplay();
+				enableLoop();
 			}
 			else{
-
+				console.log("Timing isn't matched");
 			}
 		}
 	}
@@ -85,6 +103,16 @@
 	document.getElementById("timeNow").innerHTML = time;
  	}
  	setInterval(showTime,1000);
+
+ 	function enableLoop() { 
+ 	  myAudio.loop = true;
+ 	  myAudio.load();
+ 	}
+
+ 	function enableAutoplay() { 
+ 	  myAudio.autoplay = true;
+ 	  myAudio.load();
+ 	} 
 
 </script>
 </html>
