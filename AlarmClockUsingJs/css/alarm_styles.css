@@ -1,0 +1,10 @@
+#myAlarm{
+	display: none;
+}
+.top_right{
+	top: 0px;
+	right: 15px;
+	position: absolute;
+	font-weight: 500;
+	font-size: 18px;
+}
