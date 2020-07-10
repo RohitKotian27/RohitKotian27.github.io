@@ -16,6 +16,7 @@
       integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
       crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="css/myStyle.css">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <script src="js/myScript.js"></script>
 </head>
 <body class="body_font">
@@ -28,12 +29,12 @@
 		  <div class="collapse navbar-collapse w-100" id="navbarSupportedContent">
 		    <ul class="navbar-nav ml-auto">
 		      <li class="nav-item mx-lg-2">
-		        <a class="nav-link text-white" href="#Projects">PROJECTS</a>
+		        <a class="nav-link text-white projects" href="#Projects">PROJECTS</a>
 		      <li class="nav-item mx-lg-2">
-		        <a class="nav-link text-white" href="#About">ABOUT</a>
+		        <a class="nav-link text-white myinfo" href="#About">ABOUT</a>
 		      </li>
 		      <li class="nav-item mx-lg-2">
-		        <a class="nav-link text-white" href="#GetInTouch">GET IN TOUCH</a>
+		        <a class="nav-link text-white contactMe" href="#GetInTouch">GET IN TOUCH</a>
 		      </li>
 		    </ul>
 		  </div>
@@ -47,8 +48,8 @@
 						<img class="rounded-circle" src="images/Rk_Profile.png">
 						<h1 class="display-4 pt-4 mob_heading heading">Rohit Kotian</h1>
 						<img class="img-fluid" src="images/divider.png">
-						<p class="pt-4 fs30 m-fs-20">
-							Web Developer | Designer | Innovator
+						<p class="pt-4 fs30 m-fs-20" id="myMessage">
+							&nbsp;
 						</p>	
 					</div>
 					<div class="col-md-8 offset-md-2 col-12">
@@ -198,17 +199,17 @@
 				    		<p></p>
 				    	</div>
 				    	<div class="col-md-6 col-12">
-				    		<form class="form-inline">
-				    			<input class="w-100 mb-3 p-2 customInput m-fs-16" maxlength="30" type="text" name="Name" placeholder="Your name" required>
+				    		<form class="form-inline" method="POST" action="mailto:rohitkotian07@gmail.com?Customer_details" enctype="multipart/form-data" name="EmailForm">
+				    			<input class="w-100 mb-3 p-2 customInput m-fs-16" maxlength="30" type="text" name="name" placeholder="Your name" required>
 				    			<input class="w-100 mb-3 p-2 customInput m-fs-16" maxlength="10" type="number" name="number" placeholder="Mobile number" required>
 				    			<input class="w-100 mb-3 p-2 customInput m-fs-16" maxlength="30" type="email" name="email" placeholder="Email-id" required>
-				    			<input class="w-100 mb-3 p-2 customInput m-fs-16" maxlength="30" type="text" name="Name" placeholder="Organization" required>
-				    			<textarea class="w-100 mb-3 p-2 customText m-fs-16" maxlength="100" type="text" name="text" placeholder="Your message" required></textarea>
+				    			<input class="w-100 mb-3 p-2 customInput m-fs-16" maxlength="30" type="text" name="Organization" placeholder="Organization" required>
+				    			<textarea class="w-100 mb-3 p-2 customText m-fs-16" maxlength="100" type="text" name="message" placeholder="Your message" required></textarea>
 				    			<div class="w-100 mb-3">
 				    				<input type="checkbox" class="tick" name="checked" id="checked">
 				    				<label class="d-inline m-fs-16">Any message ?</label>
 				    			</div>
-				    			<button type="Submit" class="d-block btn btn-info btn-lg m-fs-16">SEND</button>
+				    			<button type="Submit" value="Submit" class="d-block btn btn-info btn-lg m-fs-16">SEND</button>
 				    		</form>
 				    	</div>
 				    </div>
