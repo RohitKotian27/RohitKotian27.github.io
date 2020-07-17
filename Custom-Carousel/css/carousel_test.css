@@ -1,0 +1,43 @@
+*{
+	box-sizing: border-box;
+	font-family: Arial;
+}
+.flt-right{
+	float: right;
+}
+.container{
+	width: 350px;
+}
+.hidden{
+	display: none;
+}
+.navButtons{
+	padding-top: 15px;
+}
+.disBtn{
+	opacity: 0.5;
+	cursor: not-allowed;
+}
+.prev_btn,.next_btn{
+	cursor: pointer;
+	color: #000;
+	font-size: 22px;
+}
+.container{
+	margin: 100px auto;
+	padding:0px 15px;
+}
+.text-center{
+	text-align: center;
+}
+.imgSlider{
+	width: 350px;
+}
+@media screen and (max-width:480px){
+	.imgSlider{
+		width: 100%;
+	}
+	.container,img{
+		width: 100%;
+	}
+}
