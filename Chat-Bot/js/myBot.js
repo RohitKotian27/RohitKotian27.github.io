@@ -186,10 +186,6 @@ var myBrand;
                           value: 'Motorola',
                         },
                         {
-                          text: 'Motorola',
-                          value: 'Motorola',
-                        },
-                        {
                           text: 'Nokia',
                           value: 'Nokia',
                         },
