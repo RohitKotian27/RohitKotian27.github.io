@@ -196,14 +196,14 @@ var myBrand;
                           botui.message.add({ // show a message
                             delay: 1000,
                             loading: true,
-                            content: 'The Smartphones are per your selection are : Redmi Note 7, Redmi Note 7S, Redmi 8, Redmi 7, Redmi 8A & Redmi Y3.'
+                            content: 'The Smartphones as per your selection are : Redmi Note 7, Redmi Note 7S, Redmi 8, Redmi 7, Redmi 8A & Redmi Y3.'
                         });
                         }
                         else if((myBudget < 20000) && (myBrand == "Xioami")){
                           botui.message.add({ // show a message
                             delay: 1000,
                             loading: true,
-                            content: 'The Smartphones are per your selection are : Redmi Note 8 Pro, Redmi Note 8, Redmi Note 7 Pro, Xiaomi Mi A3, Redmi Note 6 Pro'
+                            content: 'The Smartphones as per your selection are : Redmi Note 8 Pro, Redmi Note 8, Redmi Note 7 Pro, Xiaomi Mi A3, Redmi Note 6 Pro'
                           });
                         }
                     });
