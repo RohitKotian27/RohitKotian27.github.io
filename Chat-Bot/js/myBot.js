@@ -17,7 +17,7 @@ var myBrand;
           loading: true,
           content: 'Hi ' + res.value + '<br/> Can I introduce myself?'
         });
-    }).then(function(res){
+    }).then(function(){
       return botui.action.button({
           action: [
             { // show only one button
@@ -36,7 +36,7 @@ var myBrand;
                 type: 'html',
                 loading: true,
                 content: "<p>My name is Jarvis and I am here to help you as a Smartphone Buying Assistant so that you can get the best value for your Money.</p>What is your Budget for buying a smartphone?"
-              }).then(function(res){
+              }).then(function(){
                 return botui.action.button({
                   action: [
                     { // show only one button
@@ -115,7 +115,7 @@ var myBrand;
                   delay: 4000,
                   loading: true,
                   content: 'So now your Budget is finalized I have one more question i.e. Can you please let me know which smartphone Brand do you prefer to buy?'
-                }).then(function(res){
+                }).then(function(){
                   if(myBudget > 25000){
                     return botui.action.button({
                       action: [
