@@ -1,0 +1,25 @@
+.botui-message-content-image{
+  display: inline!important;
+  width: 100%;
+}
+.mobDesc{
+  display: flex;
+  align-items: center;
+  height: 100%;
+  font-weight: 600;
+}
+hr {
+ margin-top: 0.2rem;
+ margin-bottom: 0.2rem;
+ border: 0;
+ border-top: 1px solid rgba(0,0,0,.2);
+}
+
+@media screen and (max-width: 480px){
+  .w-25{
+    width: 30%!important;
+  }
+  .w-75{
+    width: 70%!important;
+  }
+}
