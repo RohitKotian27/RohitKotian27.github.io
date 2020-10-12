@@ -23,7 +23,7 @@ hr {
     width: 70%!important;
   }
    .botui-actions-text-submit{
-     display: block!important;
+     display: inline!important;
    }
 }
 
