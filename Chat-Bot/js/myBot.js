@@ -203,7 +203,7 @@ var myBrand;
                                 ![Mobile image](images/redmi-9a.png)\
                               </div>\
                               <div class="w-75">\
-                                <div class="mobDesc px-3"><div><div>Redmi 9A.</div>\
+                                <div class="mobDesc pl-3"><div><div>Redmi 9A.</div>\
                                                      <div>Price : 6799 Rs.</div>\
                                                      <div>[Buy Now!](https://www.amazon.in/Redmi-9A-2GB-32GB-Storage/dp/B086978F2L/ref=sr_1_5?dchild=1&keywords=Redmi&qid=1602429594&refinements=p_89%3ARedmi%2Cp_36%3A1318505031&rnid=1318502031&s=electronics&sr=1-5)^</div></div>\
                                 </div>\
@@ -215,7 +215,7 @@ var myBrand;
                                 ![Mobile image](images/redmi-8a-dual.png)\
                               </div>\
                               <div class="w-75">\
-                                <div class="mobDesc px-3"><div><div>Redmi 8A Dual.</div>\
+                                <div class="mobDesc pl-3"><div><div>Redmi 8A Dual.</div>\
                                                      <div>Price : 8999 Rs.</div>\
                                                      <div>[Buy Now!](https://www.amazon.in/Redmi-8A-Dual-Blue-Storage/dp/B08698559Z/ref=sr_1_4?dchild=1&keywords=Redmi&qid=1602398887&refinements=p_89%3ARedmi%2Cp_36%3A1318505031&rnid=1318502031&s=electronics&sr=1-4)^</div></div>\
                                 </div>\
@@ -227,7 +227,7 @@ var myBrand;
                                 ![Mobile image](images/redmi-9.png)\
                               </div>\
                               <div class="w-75">\
-                                <div class="mobDesc px-3"><div><div>Redmi 9.</div>\
+                                <div class="mobDesc pl-3"><div><div>Redmi 9.</div>\
                                                      <div>Price : 9999 Rs.</div>\
                                                      <div>[Buy Now!](https://www.amazon.in/Test-Dummy_March_2020_87-Black-128BG-Storage/dp/B086984LJV/ref=sr_1_6?dchild=1&keywords=Redmi&qid=1602429594&refinements=p_89%3ARedmi%2Cp_36%3A1318505031&rnid=1318502031&s=electronics&sr=1-6)^</div></div>\
                                 </div>\
@@ -239,7 +239,7 @@ var myBrand;
                                 ![Mobile image](images/redmi-9-prime.png)\
                               </div>\
                               <div class="w-75">\
-                                <div class="mobDesc px-3"><div><div>Redmi 9 Prime.</div>\
+                                <div class="mobDesc pl-3"><div><div>Redmi 9 Prime.</div>\
                                                      <div>Price : 9999 Rs.</div>\
                                                      <div>[Buy Now!](https://www.amazon.in/Redmi-Prime-Storage-Display-Camera/dp/B08696XM8J/ref=sr_1_12?dchild=1&keywords=Redmi&qid=1602429594&refinements=p_89%3ARedmi%2Cp_36%3A1318505031&rnid=1318502031&s=electronics&sr=1-12)^</div></div>\
                                 </div>\
