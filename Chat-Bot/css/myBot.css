@@ -23,3 +23,9 @@ hr {
     width: 70%!important;
   }
 }
+
+@media (min-width:415px){
+  .botui-actions-text-submit{
+     display:none
+     }
+}
