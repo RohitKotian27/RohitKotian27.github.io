@@ -112,7 +112,7 @@ var myBrand;
                 });
               }).then(function(){
                 botui.message.add({ // show a message
-                  delay: 4000,
+                  delay: 3000,
                   loading: true,
                   content: 'So now your Budget is finalized I have one more question i.e. Can you please let me know which smartphone Brand do you prefer to buy?'
                 }).then(function(){
@@ -192,7 +192,7 @@ var myBrand;
                       ]
                     }).then(function(res){
                         myBrand = res.value;
-                        if((myBudget < 15000) && (myBrand == "Xioami")){
+                        if((myBudget <= 10000) && (myBrand == "Xioami")){
                           botui.message.add({ // show a message
                             delay: 1000,
                             loading: true,
@@ -247,11 +247,112 @@ var myBrand;
                             </div>'
                         });
                         }
-                        else if((myBudget < 20000) && (myBrand == "Xioami")){
+                        else if((myBudget <= 15000) && (myBrand == "Xioami")){
                           botui.message.add({ // show a message
                             delay: 1000,
                             loading: true,
-                            content: 'The Smartphones as per your selection are : Redmi Note 8 Pro, Redmi Note 8, Redmi Note 7 Pro, Xiaomi Mi A3, Redmi Note 6 Pro'
+                            content: 'The Smartphones as per your selection are : <br/>\
+                            <div class="p-1 row no-gutters">\
+                              <div class="w-25">\
+                                ![Mobile image](images/redmi-note-9.png)\
+                              </div>\
+                              <div class="w-75">\
+                                <div class="mobDesc pl-3"><div><div>Redmi Note 9.</div>\
+                                                     <div>Price : 11,999 Rs.</div>\
+                                                     <div>[Buy Now!](https://www.amazon.in/Redmi-Note-Pebble-Grey-Storage/dp/B086977TR6/ref=sr_1_1?dchild=1&keywords=Redmi&qid=1602479302&refinements=p_89%3ARedmi%2Cp_36%3A1000000-1500000&rnid=1318502031&s=electronics&sr=1-1)^</div></div>\
+                                </div>\
+                              </div>\
+                            </div>\
+                            <hr/>\
+                            <div class="p-1 row no-gutters">\
+                              <div class="w-25">\
+                                ![Mobile image](images/redmi-note-9-pro.png)\
+                              </div>\
+                              <div class="w-75">\
+                                <div class="mobDesc pl-3"><div><div>Redmi Note 9 Pro.</div>\
+                                                     <div>Price : 13,999 Rs.</div>\
+                                                     <div>[Buy Now!](https://www.amazon.in/Test-Exclusive-549/dp/B077PWBC78/ref=sr_1_2?dchild=1&keywords=Redmi&qid=1602479302&refinements=p_89%3ARedmi%2Cp_36%3A1000000-1500000&rnid=1318502031&s=electronics&sr=1-2)^</div></div>\
+                                </div>\
+                              </div>\
+                            </div>\
+                            <hr/>\
+                            <div class="p-1 row no-gutters">\
+                              <div class="w-25">\
+                                ![Mobile image](images/redmi-note-8.png)\
+                              </div>\
+                              <div class="w-75">\
+                                <div class="mobDesc pl-3"><div><div>Redmi Note 8.</div>\
+                                                     <div>Price : 12,499 Rs.</div>\
+                                                     <div>[Buy Now!](https://www.amazon.in/Redmi-Note-Neptune-Blue-Storage/dp/B07X1KT6LD/ref=sr_1_4?dchild=1&keywords=Redmi&qid=1602479302&refinements=p_89%3ARedmi%2Cp_36%3A1000000-1500000&rnid=1318502031&s=electronics&sr=1-4)^</div></div>\
+                                </div>\
+                              </div>\
+                            </div>\
+                            <hr/>\
+                            <div class="p-1 row no-gutters">\
+                              <div class="w-25">\
+                                ![Mobile image](images/redmi-y3.png)\
+                              </div>\
+                              <div class="w-75">\
+                                <div class="mobDesc pl-3"><div><div>Redmi Y3.</div>\
+                                                     <div>Price : 10,999 Rs.</div>\
+                                                     <div>[Buy Now!](https://www.amazon.in/Redmi-Y3-Storage-4000mAH-Battery/dp/B07QNQPDTV/ref=sr_1_22?dchild=1&keywords=Redmi&qid=1602479302&refinements=p_89%3ARedmi%2Cp_36%3A1000000-1500000&rnid=1318502031&s=electronics&sr=1-22)^</div></div>\
+                                </div>\
+                              </div>\
+                            </div>'
+                          });
+                        }
+                        else if((myBudget <= 20000) && (myBrand == "Xioami")){
+                          botui.message.add({ // show a message
+                            delay: 1000,
+                            loading: true,
+                            content: 'The Smartphones as per your selection are : <br/>\
+                            <div class="p-1 row no-gutters">\
+                              <div class="w-25">\
+                                ![Mobile image](images/redmi-note-9-pro-max.png)\
+                              </div>\
+                              <div class="w-75">\
+                                <div class="mobDesc pl-3"><div><div>Redmi Note 9 Pro Max.</div>\
+                                                     <div>Price : 18,499 Rs.</div>\
+                                                     <div>[Buy Now!](https://www.amazon.in/Test-Exclusive-600/dp/B07HGBMHTR/ref=sr_1_1?dchild=1&keywords=Redmi&qid=1602486425&refinements=p_89%3ARedmi%2Cp_36%3A1500000-2000000&rnid=1318502031&s=electronics&sr=1-1)^</div></div>\
+                                </div>\
+                              </div>\
+                            </div>\
+                            <hr/>\
+                            <div class="p-1 row no-gutters">\
+                              <div class="w-25">\
+                                ![Mobile image](images/redmi-k20.png)\
+                              </div>\
+                              <div class="w-75">\
+                                <div class="mobDesc pl-3"><div><div>Redmi K20.</div>\
+                                                     <div>Price : 19,399 Rs.</div>\
+                                                     <div>[Buy Now!](https://www.amazon.in/Redmi-K20-Glacier-Storage-Exchange/dp/B082FNDQT7/ref=sr_1_13?dchild=1&keywords=Redmi&qid=1602486425&refinements=p_89%3ARedmi%2Cp_36%3A1500000-2000000&rnid=1318502031&s=electronics&sr=1-13)^</div></div>\
+                                </div>\
+                              </div>\
+                            </div>\
+                            <hr/>\
+                            <div class="p-1 row no-gutters">\
+                              <div class="w-25">\
+                                ![Mobile image](images/redmi-note-6-pro.png)\
+                              </div>\
+                              <div class="w-75">\
+                                <div class="mobDesc pl-3"><div><div>Redmi Note 6 Pro.</div>\
+                                                     <div>Price : 15,990 Rs.</div>\
+                                                     <div>[Buy Now!](https://www.amazon.in/Redmi-Note-Pro-Blue-Storage/dp/B07NL6ZMXH/ref=sr_1_15?dchild=1&keywords=Redmi&qid=1602495748&refinements=p_89%3ARedmi%2Cp_36%3A1500000-2000000&rnid=1318502031&s=electronics&sr=1-15)^</div></div>\
+                                </div>\
+                              </div>\
+                            </div>\
+                            <hr/>\
+                            <div class="p-1 row no-gutters">\
+                              <div class="w-25">\
+                                ![Mobile image](images/redmi-note-7-pro.png)\
+                              </div>\
+                              <div class="w-75">\
+                                <div class="mobDesc pl-3"><div><div>Redmi Note 7 Pro.</div>\
+                                                     <div>Price : 17,999 Rs.</div>\
+                                                     <div>[Buy Now!](https://www.amazon.in/Redmi-Note-Space-Black-128GB/dp/B07R5SC3W3/ref=sr_1_27?dchild=1&keywords=Redmi&qid=1602495975&refinements=p_89%3ARedmi%2Cp_36%3A1500000-2000000&rnid=1318502031&s=electronics&sr=1-27)^</div></div>\
+                                </div>\
+                              </div>\
+                            </div>'
                           });
                         }
                     });
