@@ -397,6 +397,114 @@ var myBrand;
                       </div>'
                   });
                 }
+                else if((myBudget <= 10000) && (myBrand == "Realme")){
+                  botui.message.add({ // show a message
+                    delay: 1000,
+                    loading: true,
+                    content: 'The Smartphones as per your selection are : <br/>\
+                    <div class="p-1 row no-gutters">\
+                      <div class="w-25">\
+                        ![Mobile image](images/realme-c3.png)\
+                      </div>\
+                      <div class="w-75">\
+                        <div class="mobDesc pl-3"><div><div>Realme C3.</div>\
+                                             <div>Price : 8,999 Rs.</div>\
+                                             <div>[Buy Now!](https://www.flipkart.com/realme-c3-frozen-blue-32-gb/p/itm58bf81a807d66?pid=MOBFZHC5HAGKGBBW&lid=LSTMOBFZHC5HAGKGBBWJH2HLH&marketplace=FLIPKART&srno=s_1_1&otracker=search&fm=SEARCH&iid=0e3fc0a5-e1c8-47b3-8181-f738e89b9949.MOBFZHC5HAGKGBBW.SEARCH&ppt=browse&ppn=browse&ssid=mtc65yan8g0000001602555844184&qH=5b198c91d136319b)^</div></div>\
+                        </div>\
+                      </div>\
+                    </div>\
+                    <hr/>\
+                    <div class="p-1 row no-gutters">\
+                      <div class="w-25">\
+                        ![Mobile image](images/realme-narzo-10a.png)\
+                      </div>\
+                      <div class="w-75">\
+                        <div class="mobDesc pl-3"><div><div>Realme Narzo 10A.</div>\
+                                             <div>Price : 9,999 Rs.</div>\
+                                             <div>[Buy Now!](https://www.flipkart.com/realme-narzo-10a-so-blue-64-gb/p/itmbeb412dade152?pid=MOBFSZTTDGNMFRYD&lid=LSTMOBFSZTTDGNMFRYDUNPGPY&marketplace=FLIPKART&srno=s_1_8&otracker=search&fm=SEARCH&iid=0e3fc0a5-e1c8-47b3-8181-f738e89b9949.MOBFSZTTDGNMFRYD.SEARCH&ppt=browse&ppn=browse&ssid=mtc65yan8g0000001602555844184&qH=5b198c91d136319b)^</div></div>\
+                        </div>\
+                      </div>\
+                    </div>\
+                    <hr/>\
+                    <div class="p-1 row no-gutters">\
+                      <div class="w-25">\
+                        ![Mobile image](images/realme-narzo-20a.png)\
+                      </div>\
+                      <div class="w-75">\
+                        <div class="mobDesc pl-3"><div><div>Realme Narzo 20A.</div>\
+                                             <div>Price : 9,499 Rs.</div>\
+                                             <div>[Buy Now!](https://www.flipkart.com/realme-narzo-20a-victory-blue-64-gb/p/itmca0d14f41a891?pid=MOBFVEATJNCZG2QD&lid=LSTMOBFVEATJNCZG2QD9QHKVF&marketplace=FLIPKART&srno=s_1_16&otracker=search&fm=SEARCH&iid=0e3fc0a5-e1c8-47b3-8181-f738e89b9949.MOBFVEATJNCZG2QD.SEARCH&ppt=browse&ppn=browse&ssid=mtc65yan8g0000001602555844184&qH=5b198c91d136319b)^</div></div>\
+                        </div>\
+                      </div>\
+                    </div>\
+                    <hr/>\
+                    <div class="p-1 row no-gutters">\
+                      <div class="w-25">\
+                        ![Mobile image](images/realme-c15.png)\
+                      </div>\
+                      <div class="w-75">\
+                        <div class="mobDesc pl-3"><div><div>Realme C15.</div>\
+                                             <div>Price : 9,999 Rs.</div>\
+                                             <div>[Buy Now!](https://www.flipkart.com/realme-c15-power-blue-32-gb/p/itm70ebdb8a0fbdf?pid=MOBFUEPQUYDNJFAG&lid=LSTMOBFUEPQUYDNJFAG6IMWCO&marketplace=FLIPKART&srno=s_1_15&otracker=search&fm=SEARCH&iid=0e3fc0a5-e1c8-47b3-8181-f738e89b9949.MOBFUEPQUYDNJFAG.SEARCH&ppt=browse&ppn=browse&ssid=mtc65yan8g0000001602555844184&qH=5b198c91d136319b)^</div></div>\
+                        </div>\
+                      </div>\
+                    </div>'
+                });
+                }
+                else if((myBudget <= 15000) && (myBrand == "Realme")){
+                  botui.message.add({ // show a message
+                    delay: 1000,
+                    loading: true,
+                    content: 'The Smartphones as per your selection are : <br/>\
+                    <div class="p-1 row no-gutters">\
+                      <div class="w-25">\
+                        ![Mobile image](images/realme-5i.png)\
+                      </div>\
+                      <div class="w-75">\
+                        <div class="mobDesc pl-3"><div><div>Realme 5i.</div>\
+                                             <div>Price : 11,999 Rs.</div>\
+                                             <div>[Buy Now!](https://www.flipkart.com/realme-5i-aqua-blue-128-gb/p/itmdac0da867a9fa?pid=MOBFP6W584RNB3HH&lid=LSTMOBFP6W584RNB3HHZYHA7A&marketplace=FLIPKART&srno=s_1_1&otracker=search&fm=SEARCH&iid=b58f5764-3b27-4713-851a-8503f0971428.MOBFP6W584RNB3HH.SEARCH&ppt=browse&ppn=browse&ssid=isl0u8nnm80000001602558490602&qH=5b198c91d136319b)^</div></div>\
+                        </div>\
+                      </div>\
+                    </div>\
+                    <hr/>\
+                    <div class="p-1 row no-gutters">\
+                      <div class="w-25">\
+                        ![Mobile image](images/realme-6i.png)\
+                      </div>\
+                      <div class="w-75">\
+                        <div class="mobDesc pl-3"><div><div>Realme 6i.</div>\
+                                             <div>Price : 13,999 Rs.</div>\
+                                             <div>[Buy Now!](https://www.flipkart.com/realme-6i-eclipse-black-64-gb/p/itm0201cc97a2f61?pid=MOBFTAYNHQKJAPYF&lid=LSTMOBFTAYNHQKJAPYFJJT6ZI&marketplace=FLIPKART&srno=s_1_3&otracker=search&fm=SEARCH&iid=b58f5764-3b27-4713-851a-8503f0971428.MOBFTAYNHQKJAPYF.SEARCH&ppt=browse&ppn=browse&ssid=isl0u8nnm80000001602558490602&qH=5b198c91d136319b)^</div></div>\
+                        </div>\
+                      </div>\
+                    </div>\
+                    <hr/>\
+                    <div class="p-1 row no-gutters">\
+                      <div class="w-25">\
+                        ![Mobile image](images/realme-6.png)\
+                      </div>\
+                      <div class="w-75">\
+                        <div class="mobDesc pl-3"><div><div>Realme 6.</div>\
+                                             <div>Price : 14,999 Rs.</div>\
+                                             <div>[Buy Now!](https://www.flipkart.com/realme-6-comet-blue-64-gb/p/itma64226eb3e2d2?pid=MOBFTAZ5CXWPRYKW&lid=LSTMOBFTAZ5CXWPRYKWM7V5HX&marketplace=FLIPKART&srno=s_1_5&otracker=search&fm=SEARCH&iid=b58f5764-3b27-4713-851a-8503f0971428.MOBFTAZ5CXWPRYKW.SEARCH&ppt=browse&ppn=browse&ssid=isl0u8nnm80000001602558490602&qH=5b198c91d136319b)^</div></div>\
+                        </div>\
+                      </div>\
+                    </div>\
+                    <hr/>\
+                    <div class="p-1 row no-gutters">\
+                      <div class="w-25">\
+                        ![Mobile image](images/realme-narzo-20-pro.png)\
+                      </div>\
+                      <div class="w-75">\
+                        <div class="mobDesc pl-3"><div><div>Realme Narzo 20 Pro.</div>\
+                                             <div>Price : 14,999 Rs.</div>\
+                                             <div>[Buy Now!](https://www.flipkart.com/realme-narzo-20-pro-white-knight-64-gb/p/itm043c480bf22fb?pid=MOBFVEATHFZNHMWU&lid=LSTMOBFVEATHFZNHMWUFDCRN9&marketplace=FLIPKART&srno=s_1_16&otracker=search&fm=SEARCH&iid=b58f5764-3b27-4713-851a-8503f0971428.MOBFVEATHFZNHMWU.SEARCH&ppt=browse&ppn=browse&ssid=isl0u8nnm80000001602558490602&qH=5b198c91d136319b)^</div></div>\
+                        </div>\
+                      </div>\
+                    </div>'
+                });
+                }
                 });
               });
           }
