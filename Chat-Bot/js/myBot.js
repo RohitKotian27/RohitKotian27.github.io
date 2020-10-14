@@ -505,6 +505,60 @@ var myBrand;
                     </div>'
                 });
                 }
+                else if((myBudget <= 20000) && (myBrand == "Realme")){
+                  botui.message.add({ // show a message
+                    delay: 1000,
+                    loading: true,
+                    content: 'The Smartphones as per your selection are : <br/>\
+                    <div class="p-1 row no-gutters">\
+                      <div class="w-25">\
+                        ![Mobile image](images/realme-6-pro.png)\
+                      </div>\
+                      <div class="w-75">\
+                        <div class="mobDesc pl-3"><div><div>Realme 6 Pro.</div>\
+                                             <div>Price : 17,999 Rs.</div>\
+                                             <div>[Buy Now!](https://www.flipkart.com/realme-6-pro-lightning-red-64-gb/p/itmdddfecb342592?pid=MOBFPCX72FRDVFKB&lid=LSTMOBFPCX72FRDVFKBBVZBTU&marketplace=FLIPKART&srno=s_1_2&otracker=search&fm=SEARCH&iid=d40f53d4-c5f6-43c4-90f9-02eaf7328684.MOBFPCX72FRDVFKB.SEARCH&ppt=browse&ppn=browse&ssid=08libkr0k00000001602653205459&qH=5b198c91d136319b)^</div></div>\
+                        </div>\
+                      </div>\
+                    </div>\
+                    <hr/>\
+                    <div class="p-1 row no-gutters">\
+                      <div class="w-25">\
+                        ![Mobile image](images/realme-x2.png)\
+                      </div>\
+                      <div class="w-75">\
+                        <div class="mobDesc pl-3"><div><div>Realme X2.</div>\
+                                             <div>Price : 17,999 Rs.</div>\
+                                             <div>[Buy Now!](https://www.flipkart.com/realme-x2-pearl-green-64-gb/p/itm75023903eb431?pid=MOBFMXTSHFVBU7UD&lid=LSTMOBFMXTSHFVBU7UDCPO4AN&marketplace=FLIPKART&srno=s_1_13&otracker=search&fm=SEARCH&iid=d40f53d4-c5f6-43c4-90f9-02eaf7328684.MOBFMXTSHFVBU7UD.SEARCH&ppt=browse&ppn=browse&ssid=08libkr0k00000001602653205459&qH=5b198c91d136319b)^</div></div>\
+                        </div>\
+                      </div>\
+                    </div>\
+                    <hr/>\
+                    <div class="p-1 row no-gutters">\
+                      <div class="w-25">\
+                        ![Mobile image](images/realme-7.png)\
+                      </div>\
+                      <div class="w-75">\
+                        <div class="mobDesc pl-3"><div><div>Realme 7.</div>\
+                                             <div>Price : 16,999 Rs.</div>\
+                                             <div>[Buy Now!](https://www.flipkart.com/realme-7-mist-blue-128-gb/p/itme55d08631f19b?pid=MOBFUYUN2YDKVEHE&lid=LSTMOBFUYUN2YDKVEHERJDMVV&marketplace=FLIPKART&srno=s_1_15&otracker=search&fm=SEARCH&iid=d40f53d4-c5f6-43c4-90f9-02eaf7328684.MOBFUYUN2YDKVEHE.SEARCH&ppt=browse&ppn=browse&ssid=08libkr0k00000001602653205459&qH=5b198c91d136319b)^</div></div>\
+                        </div>\
+                      </div>\
+                    </div>\
+                    <hr/>\
+                    <div class="p-1 row no-gutters">\
+                      <div class="w-25">\
+                        ![Mobile image](images/realme-7-pro.png)\
+                      </div>\
+                      <div class="w-75">\
+                        <div class="mobDesc pl-3"><div><div>Realme 7 Pro.</div>\
+                                             <div>Price : 19,999 Rs.</div>\
+                                             <div>[Buy Now!](https://www.flipkart.com/realme-7-pro-mirror-silver-128-gb/p/itm72f96fb9b13c3?pid=MOBFUYUNBFV7PZZV&lid=LSTMOBFUYUNBFV7PZZVX4DOZD&marketplace=FLIPKART&srno=s_1_17&otracker=search&fm=SEARCH&iid=d40f53d4-c5f6-43c4-90f9-02eaf7328684.MOBFUYUNBFV7PZZV.SEARCH&ppt=browse&ppn=browse&ssid=08libkr0k00000001602653205459&qH=5b198c91d136319b)^</div></div>\
+                        </div>\
+                      </div>\
+                    </div>'
+                });
+                }
                 });
               });
           }
