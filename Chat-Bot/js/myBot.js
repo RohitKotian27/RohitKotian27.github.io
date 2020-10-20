@@ -559,6 +559,49 @@ var myBrand;
                     </div>'
                 });
                 }
+                else if((myBudget <= 25000) && (myBrand == "Realme")){
+                  botui.message.add({ // show a message
+                    delay: 1000,
+                    loading: true,
+                    content: 'The Smartphones as per your selection are : <br/>\
+                    <div class="p-1 row no-gutters">\
+                      <div class="w-25">\
+                        ![Mobile image](images/realme-x.png)\
+                      </div>\
+                      <div class="w-75">\
+                        <div class="mobDesc pl-3"><div><div>Realme X.</div>\
+                                             <div>Price : 20,999 Rs.</div>\
+                                             <div>[Buy Now!](https://www.flipkart.com/realme-x-space-blue-128-gb/p/itmfgybqzcgbxs26?pid=MOBFGYBQY2YQY9GY&lid=LSTMOBFGYBQY2YQY9GYGXR1YM&marketplace=FLIPKART&srno=s_1_7&otracker=search&fm=SEARCH&iid=2b975921-16e4-47c1-b60b-757e781a559e.MOBFGYBQY2YQY9GY.SEARCH&ppt=browse&ppn=browse&ssid=g0147j53g00000001603208583112&qH=5b198c91d136319b)^</div></div>\
+                        </div>\
+                      </div>\
+                    </div>\
+                    <hr/>\
+                    <div class="p-1 row no-gutters">\
+                      <div class="w-25">\
+                        ![Mobile image](images/realme-X3.png)\
+                      </div>\
+                      <div class="w-75">\
+                        <div class="mobDesc pl-3"><div><div>Realme X3.</div>\
+                                             <div>Price : 22,999 Rs.</div>\
+                                             <div>[Buy Now!](https://www.flipkart.com/realme-x3-glacier-blue-128-gb/p/itm325a6e0c17b0a?pid=MOBFSS3QABH9YKVE&lid=LSTMOBFSS3QABH9YKVE40F8K4&marketplace=FLIPKART&srno=s_1_3&otracker=search&fm=SEARCH&iid=2b975921-16e4-47c1-b60b-757e781a559e.MOBFSS3QABH9YKVE.SEARCH&ppt=browse&ppn=browse&ssid=g0147j53g00000001603208583112&qH=5b198c91d136319b)^</div></div>\
+                        </div>\
+                      </div>\
+                    </div>\
+                    <hr/>\
+                    <div class="p-1 row no-gutters">\
+                      <div class="w-25">\
+                        ![Mobile image](images/realme-x3-superzoom.png)\
+                      </div>\
+                      <div class="w-75">\
+                        <div class="mobDesc pl-3"><div><div>Realme X3 SuperZoom.</div>\
+                                             <div>Price : 24,999 Rs.</div>\
+                                             <div>[Buy Now!](https://www.flipkart.com/realme-x3-superzoom-glacier-blue-128-gb/p/itm7e4d21f06e37e?pid=MOBFSS3Q9UFUZ9BZ&lid=LSTMOBFSS3Q9UFUZ9BZZSPEHT&marketplace=FLIPKART&srno=s_1_6&otracker=search&fm=SEARCH&iid=2b975921-16e4-47c1-b60b-757e781a559e.MOBFSS3Q9UFUZ9BZ.SEARCH&ppt=browse&ppn=browse&ssid=g0147j53g00000001603208583112&qH=5b198c91d136319b)^</div></div>\
+                        </div>\
+                      </div>\
+                    </div>'
+                });
+                }
+
                 });
               });
           }
