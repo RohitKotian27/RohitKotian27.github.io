@@ -151,6 +151,10 @@ var myBrand;
                           text: 'Xioami',
                           value: 'Xioami',
                         },
+                        {
+                          text: 'Realme',
+                          value: 'Realme',
+                        },
                       ]
                     });
                   }
@@ -601,6 +605,57 @@ var myBrand;
                     </div>'
                 });
                 }
+                else if((myBudget >= 30000) && (myBrand == "Realme")){
+                  botui.message.add({ // show a message
+                    delay: 1000,
+                    loading: true,
+                    content: 'The Smartphones as per your selection are : <br/>\
+                    <div class="p-1 row no-gutters">\
+                      <div class="w-25">\
+                        ![Mobile image](images/realme-x2-pro.png)\
+                      </div>\
+                      <div class="w-75">\
+                        <div class="mobDesc pl-3"><div><div>Realme X2 Pro.</div>\
+                                             <div>Price : 35,999 Rs.</div>\
+                                             <div>[Buy Now!](https://www.flipkart.com/realme-x2-pro-lunar-white-256-gb/p/itma3203d88190a3?pid=MOBFM2WZ5JEKKM9T&lid=LSTMOBFM2WZ5JEKKM9TIIU9OC&marketplace=FLIPKART&srno=s_1_1&otracker=search&fm=SEARCH&iid=312ebcb7-4416-4225-8aee-9e002260faed.MOBFM2WZ5JEKKM9T.SEARCH&ppt=browse&ppn=browse&ssid=apwuw9yngg0000001604989032213&qH=5b198c91d136319b)^</div></div>\
+                        </div>\
+                      </div>\
+                    </div>\
+                    <hr/>\
+                    <div class="p-1 row no-gutters">\
+                      <div class="w-25">\
+                        ![Mobile image](images/realme-x50-pro.png)\
+                      </div>\
+                      <div class="w-75">\
+                        <div class="mobDesc pl-3"><div><div>Realme X50 Pro.</div>\
+                                             <div>Price : 40,999 Rs.</div>\
+                                             <div>[Buy Now!](https://www.flipkart.com/realme-x50-pro-moss-green-256-gb/p/itm13d1770db35a3?pid=MOBFP6WYFBVHDHY8&lid=LSTMOBFP6WYFBVHDHY8GUPJMY&marketplace=FLIPKART&srno=s_1_5&otracker=search&fm=SEARCH&iid=312ebcb7-4416-4225-8aee-9e002260faed.MOBFP6WYFBVHDHY8.SEARCH&ppt=browse&ppn=browse&ssid=apwuw9yngg0000001604989032213&qH=5b198c91d136319b)^</div></div>\
+                        </div>\
+                      </div>\
+                    </div>'
+                  });
+                }
+               // Realme Section Ends here
+               // Samsung Section Starts here
+               else if((myBudget <= 10000) && (myBrand == "Realme")){
+                 botui.message.add({ // show a message
+                   delay: 1000,
+                   loading: true,
+                   content: 'The Smartphones as per your selection are : <br/>\
+                   <div class="p-1 row no-gutters">\
+                     <div class="w-25">\
+                       ![Mobile image](images/realme-c3.png)\
+                     </div>\
+                     <div class="w-75">\
+                       <div class="mobDesc pl-3"><div><div>Realme C3.</div>\
+                                            <div>Price : 8,999 Rs.</div>\
+                                            <div>[Buy Now!](https://www.flipkart.com/realme-c3-frozen-blue-32-gb/p/itm58bf81a807d66?pid=MOBFZHC5HAGKGBBW&lid=LSTMOBFZHC5HAGKGBBWJH2HLH&marketplace=FLIPKART&srno=s_1_1&otracker=search&fm=SEARCH&iid=0e3fc0a5-e1c8-47b3-8181-f738e89b9949.MOBFZHC5HAGKGBBW.SEARCH&ppt=browse&ppn=browse&ssid=mtc65yan8g0000001602555844184&qH=5b198c91d136319b)^</div></div>\
+                       </div>\
+                     </div>\
+                   </div>'
+                 });
+               }
+               
 
                 });
               });
