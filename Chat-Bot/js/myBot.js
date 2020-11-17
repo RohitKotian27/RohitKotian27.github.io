@@ -637,7 +637,7 @@ var myBrand;
                 }
                // Realme Section Ends here
                // Samsung Section Starts here
-               else if((myBudget <= 10000) && (myBrand == "Realme")){
+               else if((myBudget <= 10000) && (myBrand == "Samsung")){
                  botui.message.add({ // show a message
                    delay: 1000,
                    loading: true,
@@ -647,15 +647,15 @@ var myBrand;
                        ![Mobile image](images/realme-c3.png)\
                      </div>\
                      <div class="w-75">\
-                       <div class="mobDesc pl-3"><div><div>Realme C3.</div>\
-                                            <div>Price : 8,999 Rs.</div>\
-                                            <div>[Buy Now!](https://www.flipkart.com/realme-c3-frozen-blue-32-gb/p/itm58bf81a807d66?pid=MOBFZHC5HAGKGBBW&lid=LSTMOBFZHC5HAGKGBBWJH2HLH&marketplace=FLIPKART&srno=s_1_1&otracker=search&fm=SEARCH&iid=0e3fc0a5-e1c8-47b3-8181-f738e89b9949.MOBFZHC5HAGKGBBW.SEARCH&ppt=browse&ppn=browse&ssid=mtc65yan8g0000001602555844184&qH=5b198c91d136319b)^</div></div>\
+                       <div class="mobDesc pl-3"><div><div>Samsung M01 core.</div>\
+                                            <div>Price : 7,299 Rs.</div>\
+                                            <div>[Buy Now!](https://www.flipkart.com/samsung-m01-core-black-32-gb/p/itm608a437cc6d05?pid=MOBFUAEBGXVGX5US&lid=LSTMOBFUAEBGXVGX5USBQ1AQZ&marketplace=FLIPKART&srno=s_1_1&otracker=search&otracker1=search&fm=SEARCH&iid=a21e53b2-ba54-4f44-8067-6e0a8808e34c.MOBFUAEBGXVGX5US.SEARCH&ppt=sp&ppn=sp&ssid=kswux0i7w00000001604989789908&qH=3910b1e0ccab19bc)^</div></div>\
                        </div>\
                      </div>\
                    </div>'
                  });
                }
-               
+
 
                 });
               });
