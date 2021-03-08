@@ -1,0 +1,65 @@
+body{
+  font-family: 'Quicksand', sans-serif;
+  background-color: #f8fafc;
+}
+.fw_light{
+  font-weight: 300;
+}
+.fw_medium{
+  font-weight: 500;
+}
+.fw_sbold{
+  font-weight: 600;
+}
+.fw_bold{
+  font-weight: 700;
+}
+.fw_superBold{
+  font-weight: 800;
+}
+#firstSection .HomeBg{
+  background: url('/images/Weight.jpg');
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-position: bottom;
+}
+#firstSection .firstHeading{
+  color: #f8eed3;
+}
+#firstSection .firstHeading button{
+  font-size: 14px;
+  border-radius: 50px;
+  padding: 12px 34px;
+  background-color: #fca001;
+  color: #362e3d;
+}
+#firstSection .firstHeading button:hover{
+  background-color: #362e3d;
+  color: #fca001;
+  border: 2px solid #fca001;
+}
+
+/* Font Sizes */
+.fs18{
+  font-size: 1.1rem;
+}
+.fs30{
+  font-size: 1.8rem;
+}
+.fs41{
+  font-size: 2.5rem;
+}
+.fs68{
+  font-size: 4.2rem;
+}
+
+
+
+
+
+@media screen and (max-width:480px){
+#firstSection .HomeBg{
+  height: 400px;
+}
+}
