@@ -38,7 +38,7 @@ $(document).ready(function(){
 	    .deleteAll()
 
 	/*Type Writer Effect JS Ends*/
-	
+
 	/*Desktop Navigation Link Animation Scroll*/
 	$(".projects").click(function(event){
 		$('body,html').animate({
@@ -55,5 +55,46 @@ $(document).ready(function(){
 			scrollTop : $("#GetInTouch").offset().top
 		},600);
 	});
-	/*Desktop Navigation Link Animation Scroll*/    
+	/*Desktop Navigation Link Animation Scroll*/
+
+	// Send Email Functionality
+	$("#form_Submit").click(function(){
+		let myName = $("#yourName").val();
+		let myNumber = $("#yourNumber").val();
+		let myEmail = $("#yourEmail").val();
+		let myorganization = $("#yourOrganization").val();
+		let myMessage = $("#yourMessage").val();
+
+		if(myName == ""){
+			$("#yourName").css("borderColor","Red");
+			$("#yourName").attr("placeholder","Please fill out this field");
+			$("#yourName").focus();
+		}
+		else if(myNumber == ""){
+			$("#yourName").css("borderColor","black");
+			$("#yourNumber").css("borderColor","Red");
+			$("#yourNumber").attr("placeholder","Please fill out this field");
+			$("#yourNumber").focus();
+		}
+		else if(myEmail == ""){
+			$("#yourNumber").css("borderColor","Black");
+			$("#yourEmail").css("borderColor","Red");
+			$("#yourEmail").attr("placeholder","Please fill out this field");
+			$("#yourEmail").focus();
+		}
+		else{
+			$("#yourEmail").css("borderColor","Black");
+			let myData = `
+			Name : ${myName}
+			Number : ${myNumber}
+			Email : ${myEmail}
+			Organization : ${myorganization}
+			Message : ${myMessage}`;
+
+			console.log(myData);
+
+			location.href = "mailto:rohitkotian07@gmail.com?subject=User Queries &body=" + myData;
+			alert("Thank You! For getting in touch with me. Will get back to you at the earliest.");
+		}
+	});
 });
