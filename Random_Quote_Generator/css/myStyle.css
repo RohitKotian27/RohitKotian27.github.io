@@ -38,6 +38,19 @@
    padding: 12px 30px;
    outline: none;
  }
+ .fa-whatsapp{
+   color: springgreen;
+ }
+ #quote{
+   display: none;
+ }
+ .add_btns{
+   display: none;
+   color: #fff;
+ }
+ #myBtn{
+   cursor: pointer;
+ }
 @media screen and (max-width: 480px){
  .mob_font{
    font-size: 30px!important;
