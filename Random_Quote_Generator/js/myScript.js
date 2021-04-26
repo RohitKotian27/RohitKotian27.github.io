@@ -1,7 +1,11 @@
 $(document).ready(function(){
+	let randomValue;
 	$('.custom_btn').click(function(){
-		var entries = ["You Learn More From Failure Than From Success. Don't Let It Stop You. Failure Builds Character.","Don't Let Yesterday Take Up Too Much Of Today.","The Pessimist Sees Difficulty In Every Opportunity. The Optimist Sees Opportunity In Every Difficulty.","In any project, the important factor is your belief. Without belief there can be no successful outcome.","Well done is better than well said.","Life is 10% what happens to you and 90% how you react to it.","It does not matter how slowly you go as long as you do not stop.","I believe life is an intelligent thing: that things aren't random.","I have always believed that each man makes his own happiness and is responsible for his own problems. It is a simple philosophy.","Only one thing is ever guaranteed, that is that you will definitely not achieve the goal if you don't take the shot.","The fact is that grief today is a family matter as much as it is an individual one.","Reading without reflecting is like eating without digesting.","If you wish to know what a man is, place him in authority.","If you can find a path with no obstacles, it probably doesn't lead anywhere.","As you know, madness is like gravity, all it takes is a little push.","Don't let what you cannot do interfere with what you can do.","Successful and unsuccessful people do not vary greatly in their abilities. They vary in their desires to reach their potential.","Strive for progress, not perfection.","There are no shortcuts to any place worth going.","Failure is the opportunity to begin again more intelligently.","Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time.","You've got to get up every morning with determination if you're going to go to bed with satisfaction.","It's Not Whether You Get Knocked Down, It's Whether You Get Up.","If You Are Working On Something That You Really Care About, You Don't Have To Be Pushed. The Vision Pulls You.","People Who Are Crazy Enough To Think They Can Change The World, Are The Ones Who Do.","Failure Will Never Overtake Me If My Determination To Succeed Is Strong Enough.","We May Encounter Many Defeats But We Must Not Be Defeated.","Knowing Is Not Enough; We Must Apply. Wishing Is Not Enough; We Must Do."];
-		var randomValue = entries[Math.floor(Math.random() * entries.length)];
-		$('#quote').html('"' +  randomValue + '"'); 
+		fetch('https://api.quotable.io/random')
+	  .then(response => response.json())
+	  .then(data => {
+			randomValue = data.content;
+	    $('#quote').html('"' +  randomValue + '"');
+	  });
 	});
 });
