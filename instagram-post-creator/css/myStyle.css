@@ -5,6 +5,9 @@
  .black_color{
    color: #000;
  }
+ .thick_border{
+   border: 4px ridge #000;
+ }
  .post_section{
    max-width: 280px;
    height: 280px;
