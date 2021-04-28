@@ -1,0 +1,76 @@
+*{
+   padding: 0;
+   margin: 0;
+ }
+ .black_color{
+   color: #000;
+ }
+ .post_section{
+   max-width: 280px;
+   height: 280px;
+   background-color: #fff;
+   left: 50%;
+   transform: translate(-50%);
+ }
+ .center_text{
+   text-align: center!important;
+ }
+ .img-resp{
+   width: 100vw;
+   height: 100vh;
+ }
+ .bgcolor{
+   background-color: #000000!important;
+ }
+ .blocker{
+   display: block;
+ }
+ .jumbotron{
+   border-radius: 0px!important;
+ }
+ .ftcolor{
+   color: #ffffff;
+ }
+ .image{
+   width: 100%!important;
+   height: 100vh!important;
+ }
+ .custom_btn{
+   background:transparent;
+   border: 1px solid #ffffff;
+   border-radius: 50px;
+   color: #000000;
+   background-color: #ffffff;
+   font-weight: bold;
+   padding: 12px 30px;
+   outline: none;
+ }
+ .fa-whatsapp{
+   color: springgreen;
+ }
+ #quote{
+   display: none;
+   position: absolute;
+   top: 50%;
+   transform: translate(0%, -50%);
+   text-shadow: 0 0 6px #000000, 0 0 6px #000000;
+ }
+ .add_btns{
+   display: none;
+   color: #fff;
+ }
+ #myBtn{
+   cursor: pointer;
+ }
+@media screen and (max-width: 480px){
+ .mob_font{
+   font-size: 30px!important;
+   line-height: 32px!important;
+ }
+ .mob_blocker{
+   display: block!important;
+ }
+ #quote{
+   font-size: 1.2rem;
+ }
+}
