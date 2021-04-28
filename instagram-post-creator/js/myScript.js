@@ -8,7 +8,7 @@ $(document).ready(function(){
 	  .then(data => {
 			randomValue = data.content;
 			count += 1;
-			var url = `https://picsum.photos/280/280?blur=1&random=${count}`
+			var url = `https://picsum.photos/280/280?&random=${count}`
 			$(".custm_img").attr("src",url);
 	    $('#quote').html('"' +  randomValue + '"');
 			$("#quote").show();
