@@ -8,12 +8,11 @@
  .thick_border{
    border: 4px ridge #000;
  }
- .post_section{
+ #post_section{
    max-width: 280px;
    height: 280px;
    background-color: #fff;
-   left: 50%;
-   transform: translate(-50%);
+   margin: 0 auto;
  }
  .center_text{
    text-align: center!important;
@@ -74,6 +73,6 @@
    display: block!important;
  }
  #quote{
-   font-size: 1.2rem;
+   font-size: 1.1rem;
  }
 }
