@@ -16,8 +16,8 @@ $(document).ready(function(){
 			});
 
 	  });
-
-		$("#myBtn").click(function(){
+		// Download Image Code Starts Here
+		$("#dwnldBtn").click(function(){
 		const node = document.getElementById("post_section");
 		const scale = 600 / node.offsetWidth;
 		this.shot_loading = true;
@@ -46,4 +46,8 @@ $(document).ready(function(){
 		    console.error("oops, something went wrong!", error);
 		});
 	});
+		// Download Image Code Ends here
+
+	// Share to Instragram Story Code Starts here
+	// Share to Instagram Story Code Ends Here
 	});
