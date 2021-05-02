@@ -5,8 +5,13 @@
  .black_color{
    color: #000;
  }
- .thick_border{
-   border: 4px ridge #000;
+ .fa-download{
+   font-size: 2.5em;
+   cursor: pointer;
+ }
+ .fa-instagram{
+   font-size: 2.5em;
+   cursor: pointer;
  }
  #post_section{
    max-width: 300px;
@@ -47,9 +52,6 @@
    padding: 12px 30px;
    outline: none;
  }
- .fa-whatsapp{
-   color: springgreen;
- }
  #quote{
    display: none;
    position: absolute;
@@ -60,9 +62,6 @@
  .add_btns{
    display: none;
    color: #fff;
- }
- #myBtn{
-   cursor: pointer;
  }
 @media screen and (max-width: 480px){
  .mob_font{
